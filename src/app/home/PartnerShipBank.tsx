@@ -78,7 +78,6 @@ return (
         width={gateway.width}
         height={gateway.height}
         className="object-contain max-h-10 hover:opacity-90 transition-opacity"
-        quality={85}
       />
     </div>
   ))}

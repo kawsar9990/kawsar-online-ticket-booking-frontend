@@ -52,6 +52,6 @@ Logo name - gokawsar
 
 ## 🚀 Live Demo & Access
 
-🔗 Netlify --- **[Live Demo Link]()**
-🔗 Vercel --- **[Live Demo Link]()**
+🔗 Netlify --- **[Live Demo Link](https://gokawsar.netlify.app)**
+🔗 Vercel --- **[Live Demo Link](https://gokawsar.vercel.app)**
 🔗 Render --- **[Live Demo Link]()**

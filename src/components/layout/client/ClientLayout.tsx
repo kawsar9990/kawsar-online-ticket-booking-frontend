@@ -3,6 +3,7 @@
 import { ReactNode } from "react";
 import { usePathname } from "next/navigation";
 
+import Header from "../Header/page";
 import Footerpage from "../Footer/page";
 import { NotFoundProvider, useNotFound } from "@/context/NotFoundContext";
 import { LoaderProvider } from "@/context/LoaderContext";
@@ -20,6 +21,7 @@ return(
 <>
 <ToastContainer style={{ zIndex: 999999999 }} />
 <LoaderProvider>
+{!shouldhide && <Header />}
 <SmoothScrollProvider />
 {children}
 {!shouldhide && <Footerpage />}

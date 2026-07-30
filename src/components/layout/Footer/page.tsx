@@ -122,10 +122,12 @@ return (
   </h3>
   <ul className="space-y-3 text-[13px] xl:text-[15px] text-gray-600 gray-400">
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">About Us</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Contact Us</Link></li>
+    <li><Link href="/contact" className="hover:text-emerald-600 hover:underline transition-colors">Contact Us</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Why Gokawsar</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Our Offices</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Popular Routes</Link></li>
+    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Cancel Ticket</Link></li>
+    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Bus Reservation</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Help Center</Link></li>
   </ul>
 </div>
@@ -153,7 +155,7 @@ return (
   <ul className="space-y-3 text-[13px] xl:text-[15px] text-gray-600 gray-400">
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">How To Use</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">How To Pay</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">FAQ</Link></li>
+    <li><Link href="/faq" className="hover:text-emerald-600 hover:underline transition-colors">FAQ</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Refund Policy</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Privacy Policy</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Terms & Condition</Link></li>
