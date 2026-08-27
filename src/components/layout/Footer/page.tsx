@@ -28,9 +28,9 @@ return (
 >     
 
 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-<div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8 md:gap-y-10">
+<div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-8 md:gap-y-10">
           
-<div className="md:col-span-3 lg:col-span-2 space-y-4">
+<div className="md:col-span-4 lg:col-span-2 space-y-4">
 <Link href="/" className="inline-block">
 <Image
     src="/assets/5.png" 
@@ -120,15 +120,14 @@ return (
   <h3 className="font-bold text-gray-900  text-base mb-4">
     Explore
   </h3>
+  
   <ul className="space-y-3 text-[13px] xl:text-[15px] text-gray-600 gray-400">
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">About Us</Link></li>
+    <li><Link href="/about" className="hover:text-emerald-600 hover:underline transition-colors">About Us</Link></li>
     <li><Link href="/contact" className="hover:text-emerald-600 hover:underline transition-colors">Contact Us</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Why Gokawsar</Link></li>
+    <li><Link href="/why-gokawsar" className="hover:text-emerald-600 hover:underline transition-colors">Why Gokawsar</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Our Offices</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Popular Routes</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Cancel Ticket</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Bus Reservation</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Help Center</Link></li>
   </ul>
 </div>
 
@@ -138,7 +137,7 @@ return (
     Services
   </h3>
   <ul className="space-y-3 text-[13px] xl:text-[15px] text-gray-600 gray-400">
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Bus Tickets</Link></li>
+    <li><Link href="/bus-tickets" className="hover:text-emerald-600 hover:underline transition-colors">Bus Tickets</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Air Tickets</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Train Tickets</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Launch Tickets</Link></li>
@@ -153,12 +152,12 @@ return (
     Support
   </h3>
   <ul className="space-y-3 text-[13px] xl:text-[15px] text-gray-600 gray-400">
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">How To Use</Link></li>
+    <li><Link href="/how-to-use" className="hover:text-emerald-600 hover:underline transition-colors">How To Use</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">How To Pay</Link></li>
     <li><Link href="/faq" className="hover:text-emerald-600 hover:underline transition-colors">FAQ</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Refund Policy</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Privacy Policy</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Terms & Condition</Link></li>
+    <li><Link href="/privacy-policy" className="hover:text-emerald-600 hover:underline transition-colors">Privacy Policy</Link></li>
+    <li><Link href="/terms-condition" className="hover:text-emerald-600 hover:underline transition-colors">Terms & Condition</Link></li>
   </ul>
 </div>
 
@@ -170,6 +169,7 @@ return (
   <ul className="space-y-3 text-[13px] xl:text-[15px] text-gray-600 gray-400">
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Blogs</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Notification</Link></li>
+    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Popular Routes</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Offers & Promotions</Link></li>
   </ul>
 </div>
@@ -183,8 +183,8 @@ return (
            
 
 <div className="flex items-center gap-4 sm:gap-6 ">
-  <Link href="#" className="hover:text-emerald-600 transition-colors">Privacy Notice</Link>
-  <Link href="#" className="hover:text-emerald-600 transition-colors">Support Center</Link>
+  <Link href="tel:+8801602084187" className="hover:text-emerald-600 transition-colors">Support Center</Link>
+  <Link href="/help-center" className="hover:text-emerald-600 transition-colors">Help Center</Link>
 </div>
 
 

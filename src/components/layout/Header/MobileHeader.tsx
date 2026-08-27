@@ -43,7 +43,7 @@ const pathname: string = usePathname();
 useLockBodyScroll(isLeftOpen || isRightOpen);
 
 const menuItems: IMenuItem[] = [
-    { label: 'Bus', icon: FaBus, href: '/' },
+    { label: 'Bus', icon: FaBus, href: '/bus-tickets' },
     { label: 'Air', icon: FaPlane, href: '/air' },
     { label: 'Train', icon: FaTrain, href: '/train' },
     { label: 'Launch', icon: FaShip, href: '/launch' },

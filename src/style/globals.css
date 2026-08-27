@@ -9,6 +9,9 @@
  --font-sans: var(--font-poppins), var(--font-inter), sans-serif;
 }
 
+html.lenis, html.lenis body {
+  height: auto;
+}
 
 html {
   font-family: var(--font-poppins), var(--font-inter), sans-serif;
@@ -32,6 +35,47 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.swal2-container {
+  z-index: 99999999 !important;
+}
+
+.custom-swal-popup {
+  border-radius: 16px !important;
+  padding: 28px !important;
+}
+
+.custom-swal-title {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #374151 !important;
+}
+
+.custom-swal-text {
+  font-size: 18px !important;
+  color: #6b7280 !important;
+}
+
+@media (max-width: 639px) {
+  .custom-swal-text {
+    font-size: 10px !important;
+  }
+}
+
+.custom-swal-button {
+  background: #4f46e5 !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+}
+
+.custom-swal-button:hover {
+  background: #4338ca !important;
 }
 
 @theme inline {

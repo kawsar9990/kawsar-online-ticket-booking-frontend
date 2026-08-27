@@ -13,11 +13,11 @@ useLockBodyScroll(show);
 if (!show) return null;
 
 return(
-<div className="fixed inset-0 flex items-center justify-center bg-black/50 backdrop-blur-sm z-[999999]">
+<div className="fixed inset-0 flex items-center justify-center bg-black/50 backdrop-blur-sm z-[99999999]">
 <div className="p-6 rounded-2xl">
 
 <div className="flex items-center justify-center p-2">
-  <HashLoader  color="#orange" size={60} />
+  <HashLoader  color="#B52D0F" size={60} />
 </div>
 
 </div>

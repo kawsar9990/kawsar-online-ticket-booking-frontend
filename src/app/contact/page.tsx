@@ -1,7 +1,12 @@
-'use client';
 
 import ContactForm from './ContactFrom';
 import Map from '@/components/common/Map/Map';
+
+export const metadata = {
+  title: 'Contact Us | GoKawsar',
+  description: 'Get in touch with GoKawsar support team. Have questions about bus ticket booking or destination guides? Reach out to us anytime.',
+};
+
 
 export default function page(){
 return(
@@ -10,10 +15,7 @@ return(
 <div className="max-w-6xl mx-auto space-y-8">
         
 <div className="text-center max-w-xl mx-auto">
-  <span className="text-xs font-semibold tracking-widest text-blue-600 uppercase bg-blue-50 px-3 py-1 rounded-full border border-blue-100">
-    GoKawsar Contact
-  </span>
-  <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight mt-3">
+  <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
     Let’s Build Something Great Together
   </h1>
   <p className="mt-1.5 text-xs sm:text-sm text-slate-500">

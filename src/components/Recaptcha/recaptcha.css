@@ -1,0 +1,26 @@
+.recaptcha-wrapper {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: visible;
+}
+
+.recaptcha-wrapper > div {
+  width: 304px;
+  max-width: 100%;
+}
+
+
+@media (max-width: 360px) {
+  .recaptcha-wrapper {
+    height: 70px;
+    overflow: hidden;
+  }
+
+  .recaptcha-wrapper > div {
+    transform: scale(0.85);
+    transform-origin: left top;
+    width: 358px;
+  }
+}
