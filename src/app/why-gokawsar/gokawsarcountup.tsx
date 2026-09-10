@@ -3,7 +3,7 @@
 const statsData = [
   {
     id: 1,
-    title: 'Happy Passenger',
+    title: 'Active Visitors',
     value: '0',
     bgGradient: 'bg-gradient-to-b from-[#ff80bf] via-[#ffb3da] to-[#ffe6f2]',
   },
@@ -15,7 +15,7 @@ const statsData = [
   },
   {
     id: 3,
-    title: 'Flight Search',
+    title: 'Total Bookings',
     subtitle: '(Monthly Average)',
     value: '0',
     bgGradient: 'bg-gradient-to-b from-[#90f2b3] via-[#bcf8d2] to-[#ebfef2]',

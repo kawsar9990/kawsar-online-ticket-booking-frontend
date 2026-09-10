@@ -125,7 +125,7 @@ return (
     <li><Link href="/about" className="hover:text-emerald-600 hover:underline transition-colors">About Us</Link></li>
     <li><Link href="/contact" className="hover:text-emerald-600 hover:underline transition-colors">Contact Us</Link></li>
     <li><Link href="/why-gokawsar" className="hover:text-emerald-600 hover:underline transition-colors">Why Gokawsar</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Our Offices</Link></li>
+    <li><Link href="/our-office" className="hover:text-emerald-600 hover:underline transition-colors">Our Offices</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Cancel Ticket</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Bus Reservation</Link></li>
   </ul>
@@ -153,9 +153,9 @@ return (
   </h3>
   <ul className="space-y-3 text-[13px] xl:text-[15px] text-gray-600 gray-400">
     <li><Link href="/how-to-use" className="hover:text-emerald-600 hover:underline transition-colors">How To Use</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">How To Pay</Link></li>
+    <li><Link href="/pay-us" className="hover:text-emerald-600 hover:underline transition-colors">How To Pay</Link></li>
     <li><Link href="/faq" className="hover:text-emerald-600 hover:underline transition-colors">FAQ</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Refund Policy</Link></li>
+    <li><Link href="/refund-policy" className="hover:text-emerald-600 hover:underline transition-colors">Refund Policy</Link></li>
     <li><Link href="/privacy-policy" className="hover:text-emerald-600 hover:underline transition-colors">Privacy Policy</Link></li>
     <li><Link href="/terms-condition" className="hover:text-emerald-600 hover:underline transition-colors">Terms & Condition</Link></li>
   </ul>
@@ -167,10 +167,8 @@ return (
     Updates
   </h3>
   <ul className="space-y-3 text-[13px] xl:text-[15px] text-gray-600 gray-400">
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Blogs</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Notification</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Popular Routes</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Offers & Promotions</Link></li>
+    <li><Link href="/blog" className="hover:text-emerald-600 hover:underline transition-colors">Blogs</Link></li>
+    <li><Link href="/popular-routes" className="hover:text-emerald-600 hover:underline transition-colors">Popular Routes</Link></li>
   </ul>
 </div>
 
