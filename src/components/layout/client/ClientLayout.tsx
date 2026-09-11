@@ -1,5 +1,7 @@
 'use client';
 
+import '@/i18n';
+import I18nProvider from '@/providers/I18nProvider';
 import { ReactNode } from "react";
 import { usePathname } from "next/navigation";
 
@@ -19,6 +21,7 @@ const shouldhide = hideHeaderFooterRoutes || isNotfound
 
 return(
 <>
+<I18nProvider>
 <ToastContainer style={{ zIndex: 999999999 }} />
 <LoaderProvider>
 {!shouldhide && <Header />}
@@ -26,6 +29,7 @@ return(
 {children}
 {!shouldhide && <Footerpage />}
 </LoaderProvider>
+</I18nProvider>
 </>
 )
 }

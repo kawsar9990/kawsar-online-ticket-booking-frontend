@@ -29,7 +29,7 @@ export default function SafeTravelTipsForWomenPage() {
         />
       </div>
 
-      <div className="mb-6">
+      <div className="mb-8 border-b border-gray-200 pb-6">
         <span className="bg-pink-100 text-pink-600 text-xs font-medium px-2.5 py-1 rounded">
           Travel Tips
         </span>

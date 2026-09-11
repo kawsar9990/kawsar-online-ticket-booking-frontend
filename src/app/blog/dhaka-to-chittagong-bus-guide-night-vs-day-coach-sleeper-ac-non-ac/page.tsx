@@ -28,7 +28,7 @@ export default function DhakaToChittagongBusGuideBlog() {
         />
       </div>
 
-      <header className="border-b border-gray-200 pb-8 mb-10 text-center md:text-left">
+      <div className="mb-8 border-b border-gray-200 pb-6">
         <span className="text-xs font-bold uppercase tracking-wider text-rose-700 bg-rose-50 px-3 py-1 rounded-full border border-rose-200">
           Highway Travel Guide
         </span>
@@ -36,8 +36,8 @@ export default function DhakaToChittagongBusGuideBlog() {
           Dhaka to Chittagong Bus Guide: Night vs Day Coach, Sleeper, AC/Non-AC
         </h1>
 
-        <div className="flex items-center justify-center md:justify-start gap-4 mt-6">
-          <div className="relative w-12 h-12 rounded-full overflow-hidden shadow-md">
+          <div className="flex items-center gap-4 text-sm text-gray-500">
+          <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center font-bold text-gray-600">
             <img
               src="https://res.cloudinary.com/dkmzakgx2/image/upload/v1788782828/8d9b30f492fcd1d04890e6abebb75e9946019df0bb25c2aa6b464e2856675025_yduer1.jpg"
               alt="Kawsar Ahmed"
@@ -49,7 +49,7 @@ export default function DhakaToChittagongBusGuideBlog() {
             <p className="text-gray-500">September 10, 2026</p>
           </div>
         </div>
-      </header>
+      </div>
 
       <section className="space-y-4 text-base md:text-lg text-gray-700 mb-12">
         <p>
@@ -193,7 +193,7 @@ export default function DhakaToChittagongBusGuideBlog() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm text-gray-700 pt-2">
           <div className="bg-white p-4 rounded-xl border border-rose-100 shadow-sm space-y-1">
             <strong className="text-rose-900 font-bold block">1. Choose Origin & Destination</strong>
-            <p className="text-gray-600">Select 'Dhaka' as departure point and 'Chittagong' as destination on gokawsar.</p>
+            <p className="text-gray-600">Select Dhaka as departure point and Chittagong as destination on gokawsar.</p>
           </div>
 
           <div className="bg-white p-4 rounded-xl border border-rose-100 shadow-sm space-y-1">

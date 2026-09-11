@@ -1,0 +1,13 @@
+{
+   "nav": {
+    "bus": "বাস",
+    "air": "ফ্লাইট",
+    "train": "ট্রেন",
+    "launch": "লঞ্চ",
+    "event": "ইভেন্ট",
+    "park": "পার্ক"
+  },
+  "all": {
+    "gokawsar": "GoKawsar"
+  }
+}

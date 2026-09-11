@@ -1,11 +1,13 @@
 'use client'
 
+import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { IconType } from 'react-icons';
 import { useLockBodyScroll } from '@/hooks/useLockBodyScroll';
+import { useGoogleTranslate } from '@/hooks/useGoogleTranslate';
 
 import { 
   FaBus, 
@@ -28,27 +30,24 @@ interface IMenuItem {
   badge?: string;
 }
 
-type Language = 'BN' | 'EN';
-
-
 
 
 export default function MobileHeader(){
 const [isLeftOpen, setIsLeftOpen] = useState<boolean>(false);
 const [isRightOpen, setIsRightOpen] = useState<boolean>(false);
-const [lang, setLang] = useState<Language>('BN');
-
-const pathname: string = usePathname();
+const { lang, toggleLanguage } = useGoogleTranslate();
+const { t } = useTranslation();
+const pathname : string = usePathname();
 
 useLockBodyScroll(isLeftOpen || isRightOpen);
 
 const menuItems: IMenuItem[] = [
-    { label: 'Bus', icon: FaBus, href: '/bus-tickets' },
-    { label: 'Air', icon: FaPlane, href: '/air' },
-    { label: 'Train', icon: FaTrain, href: '/train' },
-    { label: 'Launch', icon: FaShip, href: '/launch' },
-    { label: 'Events', icon: FaCalendarDays, href: '/events' },
-    { label: 'Park', icon: FaFortAwesome, href: '/park', badge: 'Beta' },
+    { label: 'nav.bus', icon: FaBus, href: '/bus-tickets' },
+    { label: 'nav.air', icon: FaPlane, href: '/air' },
+    { label: 'nav.train', icon: FaTrain, href: '/train' },
+    { label: 'nav.launch', icon: FaShip, href: '/launch' },
+    { label: 'nav.event', icon: FaCalendarDays, href: '/events' },
+    { label: 'nav.park', icon: FaFortAwesome, href: '/park', badge: 'Beta' },
   ];
 
 
@@ -119,7 +118,7 @@ className='w-20'/>
 </button>
 </div>
 
-<div className="flex-1 overflow-y-auto p-4 space-y-1">
+<div className="notranslate flex-1 overflow-y-auto p-4 space-y-1">
 {menuItems.map((item: IMenuItem, index: number) => {
 const Icon = item.icon;
 const isActive: boolean = pathname === item.href;
@@ -148,7 +147,7 @@ return (
     ? 'text-emerald-600 font-semibold' 
     : 'group-hover:text-emerald-600'
 }`}>
-  {item.label}
+  {t(item.label)}
 </span>
 
 {item.badge && (
@@ -213,14 +212,14 @@ return (
   <p className="text-xs text-gray-500 mb-2 font-semibold">Select Language</p>
   <div className="flex bg-gray-100 p-1 rounded-lg transition-all duration-300">
     <button 
-      onClick={() => setLang('BN')} 
-      className={`flex-1 py-2 text-xs font-semibold rounded-md transform transition-transform duration-300 ${lang === 'BN' ? 'bg-white shadow text-emerald-600' : 'text-gray-600'}`}
+      onClick={() => lang !== 'BN' && toggleLanguage()} 
+      className={`flex-1 cursor-pointer py-2 text-xs font-semibold rounded-md transform transition-transform duration-300 ${lang === 'BN' ? 'bg-white shadow text-emerald-600' : 'text-gray-600'}`}
     >
       Bangla (BN)
     </button>
     <button 
-      onClick={() => setLang('EN')} 
-      className={`flex-1 py-2 text-xs font-semibold rounded-md transform transition-transform duration-300 ${lang === 'EN' ? 'bg-white shadow text-emerald-600' : 'text-gray-600'}`}
+      onClick={() => lang !== 'EN' && toggleLanguage()} 
+      className={`flex-1 cursor-pointer py-2 text-xs font-semibold rounded-md transform transition-transform duration-300 ${lang === 'EN' ? 'bg-white shadow text-emerald-600' : 'text-gray-600'}`}
     >
       English (EN)
     </button>

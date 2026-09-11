@@ -68,7 +68,7 @@ export default function SajekBudgetGuide() {
       </div>
 
 
-      <header className="border-b border-gray-200 pb-6 mb-8 text-center md:text-left">
+     <div className="mb-8 border-b border-gray-200 pb-6">
         <span className="text-xs font-bold uppercase tracking-wider text-red-600 bg-red-50 px-3 py-1 rounded-full border border-red-100">
           Travel Guide
         </span>
@@ -76,8 +76,8 @@ export default function SajekBudgetGuide() {
           How To Save Maximum Cost on Sajek Tour From Dhaka
         </h1>
 
-        <div className="flex items-center justify-center md:justify-start gap-4 mt-4">
-          <div className="relative w-10 h-10 rounded-full overflow-hidden shadow-sm">
+          <div className="flex items-center gap-4 text-sm text-gray-500">
+          <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center font-bold text-gray-600">
             <img
               src="https://res.cloudinary.com/dkmzakgx2/image/upload/v1788782828/8d9b30f492fcd1d04890e6abebb75e9946019df0bb25c2aa6b464e2856675025_yduer1.jpg"
               alt="Kawsar Ahmed"
@@ -89,7 +89,7 @@ export default function SajekBudgetGuide() {
             <p className="text-gray-500">September 10, 2026 </p>
           </div>
         </div>
-      </header>
+      </div>
 
 
       <section className="space-y-4 text-sm md:text-base text-gray-700 mb-10">

@@ -19,14 +19,14 @@ export default function page() {
         />
       </div>
 
-      <div className="mb-6">
+      <div className="mb-8 border-b border-gray-200 pb-6">
         <span className="bg-pink-100 text-pink-600 text-xs font-medium px-2.5 py-1 rounded">
           Travel Tips
         </span>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mt-3 mb-2">
           Top Hill Tract Destinations in Bangladesh
         </h1>
-        <div className="flex items-center gap-2 text-sm text-gray-500">
+        <div className="flex items-center gap-4 text-sm text-gray-500">
           <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center font-bold text-gray-600">
             <img src="https://res.cloudinary.com/dkmzakgx2/image/upload/v1788782828/8d9b30f492fcd1d04890e6abebb75e9946019df0bb25c2aa6b464e2856675025_yduer1.jpg" 
             alt="img" 

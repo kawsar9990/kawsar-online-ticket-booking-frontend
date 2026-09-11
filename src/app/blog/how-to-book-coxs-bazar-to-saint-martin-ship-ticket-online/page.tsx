@@ -36,8 +36,8 @@ export default function SaintMartinShipBookingBlog() {
           How to Book Coxs Bazar to Saint Martin Ship Ticket Online: Step-by-Step Guide
         </h1>
 
-        <div className="flex items-center justify-center md:justify-start gap-4 mt-6">
-          <div className="relative w-12 h-12 rounded-full overflow-hidden shadow-md">
+          <div className="flex items-center gap-4 text-sm text-gray-500">
+          <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center font-bold text-gray-600">
             <img
               src="https://res.cloudinary.com/dkmzakgx2/image/upload/v1788782828/8d9b30f492fcd1d04890e6abebb75e9946019df0bb25c2aa6b464e2856675025_yduer1.jpg"
               alt="Kawsar Ahmed"

@@ -32,7 +32,7 @@ export default function SylhetToCoxBazarBlog() {
       </div>
 
 
-      <header className="border-b border-gray-200 pb-6 mb-8 text-center md:text-left">
+     <div className="mb-8 border-b border-gray-200 pb-6">
         <span className="text-xs font-bold uppercase tracking-wider text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">
           Travel Guide
         </span>
@@ -54,7 +54,7 @@ export default function SylhetToCoxBazarBlog() {
             <p className="text-gray-500">September 10, 2026</p>
           </div>
         </div>
-      </header>
+      </div>
 
 
       <section className="space-y-4 text-sm md:text-base text-gray-700 mb-10">

@@ -1,9 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useGoogleTranslate } from '@/hooks/useGoogleTranslate';
 import { 
   Bus, 
   Plane, 
@@ -13,7 +14,6 @@ import {
   Sparkles, 
   LucideIcon
 } from 'lucide-react';
-import { useLockBodyScroll } from '@/hooks/useLockBodyScroll';
 
 interface NavItem {
  name: string;
@@ -37,24 +37,20 @@ const logoData: LogoConfig = {
 }
 
 const navItems : NavItem[] = [
-{ name: 'Bus', href: '/bus-tickets', icon: Bus },
-{ name: 'Air', href: '/air', icon: Plane },
-{ name: 'Train', href: '/train', icon: Train },
-{ name: 'Launch', href: 'launch', icon: Ship },
-{ name: 'Event', href: '/event', icon: Ticket },
-{ name: 'Park',  href: '/park', icon: Sparkles, isBeta: true },
+{ name: 'nav.bus', href: '/bus-tickets', icon: Bus },
+{ name: 'nav.air', href: '/air', icon: Plane },
+{ name: 'nav.train', href: '/train', icon: Train },
+{ name: 'nav.launch', href: 'launch', icon: Ship },
+{ name: 'nav.event', href: '/event', icon: Ticket },
+{ name: 'nav.park',  href: '/park', icon: Sparkles, isBeta: true },
 ];
 
 
 export default function Header(){
-
-const [lang, setLang] = useState<'EN' | 'BN'>('EN');
+const { lang, toggleLanguage } = useGoogleTranslate();
+const { t } = useTranslation();
 const pathname = usePathname();
 
-
-const toggleLanguage = (): void => {
-setLang((prev) => (prev === 'EN' ? 'BN' : 'EN'));
-};
 
 return(
 <div 
@@ -75,7 +71,7 @@ className={`fixed top-0 left-0 right-0 z-[19999999] transition-all duration-300 
   </Link>
 </div>
 
-<nav className="flex items-center space-x-1 xl:space-x-2">
+<nav className="notranslate flex items-center space-x-1 xl:space-x-2">
 {navItems.map((item, index) => {
 const Icon = item.icon;
 const isActive = pathname === item.href;
@@ -99,7 +95,7 @@ return(
 />
 
 <span className="text-xs xl:text-sm font-semibold">
-  {item.name}
+  {t(item.name)}
 </span>
 {item.isBeta && (
  <span className="absolute -top-2 -right-2 xl:-top-2.5 xl:-right-2.5 bg-red-600 text-white text-[9px] xl:text-[10px] font-bold px-1 py-0.2 xl:px-1.5 xl:py-0.5 rounded-md shadow-xs">
@@ -117,7 +113,7 @@ return(
 
 <button
   onClick={toggleLanguage}
-  className={`relative w-16 h-8 xl:w-20 xl:h-10 rounded-full p-1 transition-all duration-300 flex items-center cursor-pointer border-2 focus:outline-none shadow-inner bg-gray-100 border-gray-300`}
+  className={`notranslate relative w-16 h-8 xl:w-20 xl:h-10 rounded-full p-1 transition-all duration-300 flex items-center cursor-pointer border-2 focus:outline-none shadow-inner bg-gray-100 border-gray-300`}
   title="Change Language"
 >
     <div

@@ -9,6 +9,27 @@
  --font-sans: var(--font-poppins), var(--font-inter), sans-serif;
 }
 
+.goog-te-banner-frame, 
+.skiptranslate, 
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+  position: static !important;
+}
+
+#goog-gt-tt, 
+.goog-te-balloon-frame {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
 html.lenis, html.lenis body {
   height: auto;
 }

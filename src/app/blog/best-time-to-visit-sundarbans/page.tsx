@@ -29,11 +29,11 @@ export default function BestTimeToVisitSundarbansPage() {
         />
       </div>
 
-      <div className="mb-6">
+      <div className="mb-8 border-b border-gray-200 pb-6">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mt-3 mb-2">
           Best Time to Visit Sundarbans
         </h1>
-        <div className="flex items-center gap-3 text-sm text-gray-500">
+         <div className="flex items-center gap-4 text-sm text-gray-500">
           <div className="relative w-10 h-10 rounded-full overflow-hidden">
             <img
               src="https://res.cloudinary.com/dkmzakgx2/image/upload/v1788782828/8d9b30f492fcd1d04890e6abebb75e9946019df0bb25c2aa6b464e2856675025_yduer1.jpg"

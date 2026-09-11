@@ -354,9 +354,6 @@ export default function SajekSeasonalGuidePage() {
         <Link href="/blog" className="hover:underline">
           ‹ Back to all blogs
         </Link>
-        <Link href="/bus" className="hover:underline">
-          Book Transport on gokawsar ›
-        </Link>
       </div>
     </article>
   );

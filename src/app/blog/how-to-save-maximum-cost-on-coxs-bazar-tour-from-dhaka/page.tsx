@@ -28,28 +28,25 @@ export default function BudgetCoxsBazarBlog() {
         />
       </div>
 
-      <header className="border-b border-gray-200 pb-8 mb-10 text-center md:text-left">
-        <span className="text-xs font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+       <div className="mb-8 border-b border-gray-200 pb-6">
+        <span className="bg-pink-100 text-pink-600 text-xs font-medium px-2.5 py-1 rounded">
           Budget Travel Guide
         </span>
-        <h1 className="text-3xl md:text-5xl font-black text-gray-900 mt-4 mb-4 leading-tight">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mt-3 mb-2">
           How To Save Maximum Cost on Coxs Bazar Tour From Dhaka: Complete Budget Guide
         </h1>
-
-        <div className="flex items-center justify-center md:justify-start gap-4 mt-6">
-          <div className="relative w-12 h-12 rounded-full overflow-hidden shadow-md">
-            <img
-              src="https://res.cloudinary.com/dkmzakgx2/image/upload/v1788782828/8d9b30f492fcd1d04890e6abebb75e9946019df0bb25c2aa6b464e2856675025_yduer1.jpg"
-              alt="Kawsar Ahmed"
-              className="object-cover w-full h-full"
-            />
+        <div className="flex items-center gap-4 text-sm text-gray-500">
+          <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center font-bold text-gray-600">
+            <img src="https://res.cloudinary.com/dkmzakgx2/image/upload/v1788782828/8d9b30f492fcd1d04890e6abebb75e9946019df0bb25c2aa6b464e2856675025_yduer1.jpg" 
+            alt="img" 
+            className="rounded-full"/>
           </div>
-          <div className="text-xs md:text-sm text-left">
-            <p className="font-bold text-gray-900">Kawsar Ahmed</p>
-            <p className="text-gray-500">September 10, 2026</p>
+          <div>
+            <p className="font-semibold text-gray-800">Kawsar Ahmed</p>
+            <p className="text-xs">July 19, 2026</p>
           </div>
         </div>
-      </header>
+      </div>
 
       <section className="space-y-4 text-base md:text-lg text-gray-700 mb-12">
         <p>

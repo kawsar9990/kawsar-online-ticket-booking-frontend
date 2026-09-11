@@ -32,7 +32,7 @@ export default function SeasonalTravelGuideBlog() {
       </div>
 
 
-      <header className="border-b border-gray-200 pb-8 mb-10 text-center md:text-left">
+      <div className="mb-8 border-b border-gray-200 pb-6">
         <span className="text-xs font-bold uppercase tracking-wider text-red-600 bg-red-50 px-3 py-1 rounded-full border border-red-100">
           Seasonal Guide
         </span>
@@ -40,8 +40,8 @@ export default function SeasonalTravelGuideBlog() {
           Seasonal Travel Guide: Best Times to Visit Popular Destinations in Bangladesh
         </h1>
 
-        <div className="flex items-center justify-center md:justify-start gap-4 mt-6">
-          <div className="relative w-12 h-12 rounded-full overflow-hidden shadow-md">
+          <div className="flex items-center gap-4 text-sm text-gray-500">
+          <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center font-bold text-gray-600">
             <img
               src="https://res.cloudinary.com/dkmzakgx2/image/upload/v1788782828/8d9b30f492fcd1d04890e6abebb75e9946019df0bb25c2aa6b464e2856675025_yduer1.jpg"
               alt="Kawsar Ahmed"
@@ -53,7 +53,7 @@ export default function SeasonalTravelGuideBlog() {
             <p className="text-gray-500">September 10, 2026 </p>
           </div>
         </div>
-      </header>
+      </div>
 
 
       <section className="space-y-4 text-base md:text-lg text-gray-700 mb-12">

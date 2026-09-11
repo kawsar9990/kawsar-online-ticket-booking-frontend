@@ -184,7 +184,7 @@ export default function ThingsToDoInCoxsBazar() {
       </div>
 
 
-      <header className="border-b border-gray-200 pb-6 mb-8">
+      <div className="mb-8 border-b border-gray-200 pb-6">
         <span className="text-xs font-bold uppercase tracking-wider text-red-600 bg-red-50 px-3 py-1 rounded-full border border-red-100">
           Travel Guide
         </span>
@@ -205,7 +205,7 @@ export default function ThingsToDoInCoxsBazar() {
             <p className="text-xs text-gray-500">September 10, 2026</p>
           </div>
         </div>
-      </header>
+      </div>
 
       <section className="space-y-4 text-base md:text-lg text-gray-600 mb-10">
         <p>

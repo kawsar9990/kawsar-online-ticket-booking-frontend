@@ -217,7 +217,7 @@ export default function page() {
           </div>
           <div>
             <p className="font-bold text-gray-900 text-base">Kawsar Ahmed</p>
-            <p className="text-xs text-gray-500">September 10, 2026 •</p>
+            <p className="text-xs text-gray-500">September 10, 2026</p>
           </div>
         </div>
       </div>

@@ -89,14 +89,14 @@ const allBlogsData: BlogItem[] = [
     title: "Food and Drink Tips for Long Bus Journeys",
     description: "Learn what to eat and drink during long bus journeys in Bangladesh. Discover healthy snacks.",
     image: "https://res.cloudinary.com/dkmzakgx2/image/upload/v1788752242/Blog-Image-1_uzlh9l.png",
-    link: "/blog/bus-journey-food-tips",
+    link: "/blog/food-drink-tips-for-long-bus-journeys",
   },
   {
     id: 12,
     title: "A First-Time Bus Traveler's Guide",
     description: "Traveling by bus for the first time in Bangladesh? Learn how to book tickets, choose seats.",
     image: "https://res.cloudinary.com/dkmzakgx2/image/upload/v1788752245/Blog-Image-2_knsifq.png",
-    link: "/blog/first-time-bus-traveler-guide",
+    link: "/blog/a-first-time-bus-travelers-guide-in-bangladesh",
   },
   {
     id: 13,
