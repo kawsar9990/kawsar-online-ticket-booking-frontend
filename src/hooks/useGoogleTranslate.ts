@@ -27,12 +27,15 @@ declare global{
 
 const getCookie = (name: string): string | undefined => {
 if (typeof document === 'undefined') return undefined;
-const value = `; ${document.cookie}`;
-        const parts = value.split(`; ${name}=`);
-        if(parts.length === 2){
-            return parts.pop()?.split(';').shift();
-        }
-         return undefined;
+const cookies = document.cookie.split(';');
+for (let i = 0; i < cookies.length; i++) {
+ const cookie = cookies[i].trim();
+
+ if(cookie.startsWith(name + '=')){
+  return decodeURIComponent(cookie.substring(name.length + 1));
+ }
+}
+  return undefined;
 }; 
 
 
@@ -109,9 +112,10 @@ export const useGoogleTranslate = () =>{
     const toggleLanguage = (): void =>{
         const targetLang = lang === 'EN' ? 'bn' : 'en';
 
-        document.cookie = `googtrans=/en/${targetLang}; path=/`;
-        document.cookie = `googtrans=/en/${targetLang}; domain=${window.location.hostname}; path=/`;
+        document.cookie = `googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC`;
+        document.cookie = `googtrans=; domain=${window.location.hostname}; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC`;
 
+        document.cookie = `googtrans=/en/${targetLang}; path=/`;
         
         window.location.reload();
     };
