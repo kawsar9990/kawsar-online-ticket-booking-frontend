@@ -52,7 +52,7 @@ export default function TrendingDestinations() {
   
   
 return (
-<section className="w-full max-w-[1400px] pt-30 mx-auto px-4 sm:px-6 lg:px-8 py-10">
+<section className="w-full max-w-[1400px] pt-10 md:pt-15 mx-auto px-4 sm:px-6 lg:px-8 py-10">
 
 <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-8">
   Discover Trending Destinations

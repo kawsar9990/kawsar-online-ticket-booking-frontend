@@ -208,7 +208,7 @@ export default function CoxsBazarBeachesPage() {
           Coxs Bazar is famous for having the worlds longest unbroken natural sandy sea beach, stretching over 120 kilometers. However, different sections of this vast coastline offer completely distinct experiences.
         </p>
         <p>
-          Whether you want lively street food stalls, peaceful coral shores, or hill-backed views along Marine Drive, book your transport easily on <strong className="text-red-600">gokawsar</strong> and explore the best beach spots below.
+          Whether you want lively street food stalls, peaceful coral shores, or hill-backed views along Marine Drive, book your transport easily on <strong className="text-red-600 notranslate">gokawsar</strong> and explore the best beach spots below.
         </p>
       </section>
 

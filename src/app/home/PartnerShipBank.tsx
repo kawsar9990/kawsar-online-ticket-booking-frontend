@@ -84,14 +84,6 @@ return (
 </div>
 
 
-<div className="w-full border-t border-gray-300" />
-
-  <div className="max-w-5xl mx-auto px-4 py-6 text-center">
-    <p className="text-xs md:text-sm font-semibold text-gray-800 leading-relaxed">
-      The tickets are issued by <span className="text-black font-bold">Gokawsar Integrated Ticketing System (GITS)</span> and{" "}
-      <span className="text-black font-bold">Gokawsar Technology Team</span> is responsible for designing, development, implementation, technical operation & maintenance of the system.
-    </p>
-  </div>
 </footer>
   );
 }

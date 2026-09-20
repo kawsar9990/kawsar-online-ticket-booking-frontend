@@ -156,7 +156,7 @@ export default function KuakataTourPlanningGuidePage() {
             </p>
             <div className="mt-3">
               <Link href="#" className="text-xs text-red-600 font-bold hover:underline inline-flex items-center gap-1">
-                Book Dhaka to Kuakata Bus Tickets Online on gokawsar →
+                Book Dhaka to Kuakata Bus Tickets Online on <span className="notranslate"> GoKawsar </span> →
               </Link>
             </div>
           </div>
@@ -267,7 +267,7 @@ export default function KuakataTourPlanningGuidePage() {
           Kuakata is more than just a sea beach; it’s a harmonious blend of nature, tribal heritage, coastal serenity, and unforgettable horizon views. From watching the sun rise and set over the Bay of Bengal to exploring mangrove forests and tasting fresh seafood, every moment spent here feels like a true discovery.
         </p>
         <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-          Plan your ultimate Kuakata getaway today with <span className="text-red-500 font-bold">gokawsar</span>—where travel meets comfort, ease, and unforgettable memories.
+          Plan your ultimate Kuakata getaway today with <span className="text-red-500 font-bold notranslate">gokawsar</span>—where travel meets comfort, ease, and unforgettable memories.
         </p>
       </section>
 

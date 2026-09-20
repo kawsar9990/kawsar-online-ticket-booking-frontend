@@ -299,7 +299,7 @@ export default function DhakaToCoxsBazarBlog() {
           7. Pro Bus Travel Tips & Ticket Booking Guide
         </h2>
         <ul className="list-disc pl-5 space-y-2 text-xs md:text-sm text-sky-100 leading-relaxed">
-          <li><strong>Advance Online Booking:</strong> During winter weekends or Eid holidays, bus tickets sell out 7–10 days prior. Book your seats online instantly on gokawsar to secure your preferred window or sleeper berths.</li>
+          <li><strong>Advance Online Booking:</strong> During winter weekends or Eid holidays, bus tickets sell out 7–10 days prior. Book your seats online instantly on <span className="notranslate"> GoKawsar </span> to secure your preferred window or sleeper berths.</li>
           <li><strong>Boarding Point Selection:</strong> If you live in North Dhaka (Uttara, Mirpur, Dhanmondi), pick Kalyanpur, Kalabagan, or Abdullahpur. For South Dhaka, Sayedabad or Arambagh offer the fastest exit towards the highway.</li>
           <li><strong>Keep Warm Clothing Handy:</strong> Bus ACs are usually set to low temperatures during overnight highway drives. Keep a light jacket, sweater, or extra blanket inside your hand luggage.</li>
           <li><strong>Luggage Security:</strong> Place heavy bags in the luggage trunk beneath the bus and obtain a luggage token from the supervisor before boarding.</li>

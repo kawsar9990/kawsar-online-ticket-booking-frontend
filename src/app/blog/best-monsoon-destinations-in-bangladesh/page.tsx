@@ -206,7 +206,7 @@ export default function page() {
 
         <h3 className="text-xl font-bold text-gray-900 mt-4">Essential Monsoon Travel Tips</h3>
         <ul className="list-disc pl-5 space-y-2">
-          <li><strong>Book Tickets Early →</strong> Monsoon often coincides with peak travel times. Use online platforms like <strong>gokawsar</strong> to secure seats in advance.</li>
+          <li><strong>Book Tickets Early →</strong> Monsoon often coincides with peak travel times. Use online platforms like <strong className="notranslate"> GoKawsar </strong> to secure seats in advance.</li>
           <li><strong>Choose Reliable Operators →</strong> Stick to trusted bus services for routes to hill tracts and coastal areas.</li>
           <li><strong>Carry Rain Gear →</strong> Umbrellas, waterproof jackets, and dry bags are must-haves.</li>
           <li><strong>Protect Electronics →</strong> Keep phones and cameras safe with waterproof covers.</li>

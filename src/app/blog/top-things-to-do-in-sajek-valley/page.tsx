@@ -60,7 +60,7 @@ export default function SajekValleyTravelBlog() {
           Perched high in the verdant mountain chains of Rangamati, <strong>Sajek Valley</strong> is widely celebrated as the <em>Queen of Hills</em> in Bangladesh. Situated 1,800 feet above sea level, Sajek is renowned for its endless sea of white floating clouds, breathtaking panoramic hill ranges, and vibrant tribal culture.
         </p>
         <p>
-          Whether you are looking for an adrenaline-filled mountain adventure, peaceful stargazing away from city lights, or deep cultural immersion with indigenous communities, Sajek Valley offers an unforgettable getaway. Here is the definitive traveler’s guide brought to you by **gokawsar**.
+          Whether you are looking for an adrenaline-filled mountain adventure, peaceful stargazing away from city lights, or deep cultural immersion with indigenous communities, Sajek Valley offers an unforgettable getaway. Here is the definitive traveler’s guide brought to you by **<span className="notranslate"> GoKawsar </span>**.
         </p>
       </section>
 
@@ -133,7 +133,7 @@ export default function SajekValleyTravelBlog() {
               </tr>
               <tr>
                 <td className="p-3 font-bold text-gray-900">How to Reach</td>
-                <td className="p-3 text-gray-600">Take an overnight bus from Dhaka to Khagrachhari on **gokawsar** (8-10 hrs). From Khagrachhari, hire an open-top Chander Gari (Jeep) to Sajek (2-3 hrs).</td>
+                <td className="p-3 text-gray-600">Take an overnight bus from Dhaka to Khagrachhari on **<span className="notranslate"> GoKawsar </span>** (8-10 hrs). From Khagrachhari, hire an open-top Chander Gari (Jeep) to Sajek (2-3 hrs).</td>
               </tr>
               <tr>
                 <td className="p-3 font-bold text-gray-900">Where to Stay</td>
@@ -183,7 +183,7 @@ export default function SajekValleyTravelBlog() {
             <div className="space-y-3 text-gray-700">
               <div>
                 <strong className="text-gray-900 block">Morning (06:00 AM – 12:00 PM):</strong>
-                <p>Arrive in Khagrachhari via gokawsar overnight bus. Meet your Chander Gari driver, complete army escort registration at Dighinala, and enjoy the scenic jeep ride up to Sajek Valley.</p>
+                <p>Arrive in Khagrachhari via <span className="notranslate"> GoKawsar </span> overnight bus. Meet your Chander Gari driver, complete army escort registration at Dighinala, and enjoy the scenic jeep ride up to Sajek Valley.</p>
               </div>
 
               <div>
@@ -217,7 +217,7 @@ export default function SajekValleyTravelBlog() {
 
               <div>
                 <strong className="text-gray-900 block">Evening (05:00 PM – Onwards):</strong>
-                <p>Enjoy early dinner in Khagrachhari town before boarding your night return coach back to Dhaka booked seamlessly via gokawsar.</p>
+                <p>Enjoy early dinner in Khagrachhari town before boarding your night return coach back to Dhaka booked seamlessly via <span className="notranslate"> GoKawsar </span>.</p>
               </div>
             </div>
           </div>
@@ -231,7 +231,7 @@ export default function SajekValleyTravelBlog() {
           Ready for Your Sajek Valley Mountain Escapade?
         </h2>
         <p className="text-xs md:text-sm text-emerald-100 leading-relaxed">
-          Book your Dhaka to Khagrachhari AC &amp; Non-AC bus tickets on **gokawsar** with instant seat selection, best prices, and zero booking hassle!
+          Book your Dhaka to Khagrachhari AC &amp; Non-AC bus tickets on **<span className="notranslate"> GoKawsar </span>** with instant seat selection, best prices, and zero booking hassle!
         </p>
       </section>
 

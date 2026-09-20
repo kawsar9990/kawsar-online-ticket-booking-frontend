@@ -29,7 +29,7 @@ export default function FoodAndDrinkTipsBlog() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-6 md:p-10">
           <span className="text-white font-bold text-lg md:text-2xl bg-rose-600 px-4 py-1.5 rounded-lg shadow-md">
-            gokawsar Travel Guide
+            <span className="notranslate"> GoKawsar </span> Travel Guide
           </span>
         </div>
       </div>
@@ -64,7 +64,7 @@ export default function FoodAndDrinkTipsBlog() {
           Long-distance bus travel is one of the most popular ways to traverse Bangladesh—whether heading to Coxs Bazar, Sylhet, Chittagong, or Northern districts. While modern AC coaches and sleeper berths offer great comfort, sitting for 6 to 12 hours can take a toll on your digestion and energy levels if you dont manage your food intake carefully.
         </p>
         <p>
-          Choosing the right snacks, maintaining adequate hydration, and avoiding heavy or greasy meals before and during your ride can make the difference between a smooth, relaxing trip and an uncomfortable journey spoiled by motion sickness or acidity. Here is your ultimate guide brought to you by **gokawsar**.
+          Choosing the right snacks, maintaining adequate hydration, and avoiding heavy or greasy meals before and during your ride can make the difference between a smooth, relaxing trip and an uncomfortable journey spoiled by motion sickness or acidity. Here is your ultimate guide brought to you by **<span className="notranslate"> GoKawsar </span>**.
         </p>
       </section>
 

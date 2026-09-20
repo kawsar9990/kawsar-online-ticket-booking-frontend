@@ -248,7 +248,7 @@ export default function BudgetCoxsBazarBlog() {
           <li><strong>Carry Cash:</strong> Beach vendors and local restaurants charge extra or do not accept cards/bKash. Keep enough cash handy.</li>
           <li><strong>Refillable Water Bottle:</strong> Carry a reusable water bottle during beach walks to save money on buying multiple single-use mineral water bottles daily.</li>
           <li><strong>Bargain for Burmese Items:</strong> When shopping for pickles, shawls, or dry fish at Burmese Market, bargain politely—start at 60% of the initial quoted price.</li>
-          <li><strong>Pre-Book Bus Return Seats:</strong> Book your return bus tickets from Coxs Bazar to Dhaka ahead of time on gokawsar to avoid last-minute price gouging.</li>
+          <li><strong>Pre-Book Bus Return Seats:</strong> Book your return bus tickets from Coxs Bazar to Dhaka ahead of time on <span className="notranslate"> GoKawsar </span> to avoid last-minute price gouging.</li>
         </ul>
       </section>
 

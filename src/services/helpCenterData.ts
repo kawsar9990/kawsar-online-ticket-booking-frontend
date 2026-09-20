@@ -3,7 +3,7 @@ import { ContactFormData } from "@/app/help-center/HelpCenter";
 
 export const submitHelpCenterForm = async (formData: ContactFormData) => {
 try{
-const response = await api.post('help-center-data', formData);
+const response = await api.post("/help-center-data", formData);
 return response.data;
 }
 catch(error: any){

@@ -56,7 +56,7 @@ export default function BestTimeToTravelRamadanBlog() {
           Ramadan transforms daily schedules and traffic dynamics across Bangladesh. Whether traveling to visit home, attending business meetings, or preparing for Eid holidays, choosing the ideal departure window makes all the difference between a exhausting trip and a smooth journey.
         </p>
         <p>
-          Understanding highway congestion trends, fasting energy cycles, and seat availability on **gokawsar** allows you to travel in maximum comfort without compromising your health or religious observations.
+          Understanding highway congestion trends, fasting energy cycles, and seat availability on **<span className="notranslate"> GoKawsar </span>** allows you to travel in maximum comfort without compromising your health or religious observations.
         </p>
       </section>
 
@@ -195,7 +195,7 @@ export default function BestTimeToTravelRamadanBlog() {
           Essential Ramadan Booking Checklist on gokawsar
         </h2>
         <ul className="list-disc pl-5 space-y-2 text-xs md:text-sm text-gray-700 leading-relaxed">
-          <li><strong>Pre-Book Early Morning Trips:</strong> Secure your post-Fajr ticket on gokawsar at least 48 hours early to guarantee preferred seats.</li>
+          <li><strong>Pre-Book Early Morning Trips:</strong> Secure your post-Fajr ticket on <span className="notranslate"> GoKawsar </span> at least 48 hours early to guarantee preferred seats.</li>
           <li><strong>Select Business Class AC Buses:</strong> AC environment regulates cabin climate and keeps body temperature comfortable during fasting hours.</li>
           <li><strong>Keep Digital E-Tickets Downloaded:</strong> Save your SMS and PDF e-ticket to your smartphone for instant boarding access at counter points.</li>
           <li><strong>Pack Emergency Food & Water:</strong> Always carry dates and water in your hand luggage when traveling near sunset hours.</li>
@@ -204,10 +204,10 @@ export default function BestTimeToTravelRamadanBlog() {
 
       <section className="bg-blue-950 text-white p-6 md:p-8 rounded-2xl mb-12 space-y-4">
         <h2 className="text-xl md:text-2xl font-bold text-white">
-          Book Your Preferred Ramadan Travel Slot on gokawsar!
+          Book Your Preferred Ramadan Travel Slot on <span className="notranslate"> GoKawsar </span>!
         </h2>
         <p className="text-xs md:text-sm text-blue-100 leading-relaxed">
-          Choose the best departure window, compare leading bus operators, and lock in your seats with exclusive Ramadan discounts on gokawsar today!
+          Choose the best departure window, compare leading bus operators, and lock in your seats with exclusive Ramadan discounts on <span className="notranslate"> GoKawsar </span> today!
         </p>
       </section>
 

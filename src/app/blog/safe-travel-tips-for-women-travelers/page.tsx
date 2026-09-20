@@ -286,7 +286,7 @@ export default function SafeTravelTipsForWomenPage() {
         </div>
 
         <p className="font-semibold text-gray-900 pt-2">
-          Travel boldly, safely, and with confidence because the world is yours to explore. Plan your next trip with <span className="text-red-600">gokawsar</span>.
+          Travel boldly, safely, and with confidence because the world is yours to explore. Plan your next trip with <span className="text-red-600 notranslate">gokawsar</span>.
         </p>
       </section>
 

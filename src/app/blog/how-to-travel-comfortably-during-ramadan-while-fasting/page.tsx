@@ -56,7 +56,7 @@ export default function RamadanTravelGuideBlog() {
           Traveling during the holy month of Ramadan while observing fasts presents unique challenges, especially on long highway routes across Bangladesh. High temperatures, heat fatigue, traffic delays, and keeping track of Sehri and Iftar timings can make long journeys exhausting if not properly planned.
         </p>
         <p>
-          With right scheduling, hydration management, and booking comfortable AC coaches via **gokawsar**, you can ensure a peaceful, energy-conserving, and spiritually fulfilling travel experience. Here is your ultimate Ramadan travel survival guide.
+          With right scheduling, hydration management, and booking comfortable AC coaches via **<span className="notranslate"> GoKawsar </span>**, you can ensure a peaceful, energy-conserving, and spiritually fulfilling travel experience. Here is your ultimate Ramadan travel survival guide.
         </p>
       </section>
 
@@ -85,7 +85,7 @@ export default function RamadanTravelGuideBlog() {
           </div>
         </div>
         <p className="text-xs font-semibold text-teal-900 bg-white p-3 rounded-lg border border-teal-200">
-          Pro Tip: Use gokawsar to filter premium AC business class coaches for a temperature-controlled environment while fasting during daytime trips.
+          Pro Tip: Use <span className="notranslate"> GoKawsar </span> to filter premium AC business class coaches for a temperature-controlled environment while fasting during daytime trips.
         </p>
       </section>
 
@@ -124,7 +124,7 @@ export default function RamadanTravelGuideBlog() {
           3. Optimize Seat Choice for Rest & Energy Preservation
         </h2>
         <p className="text-xs md:text-sm text-gray-600">
-          Quality sleep during travel is vital for conserving energy while fasting. Selecting the right seat layout on gokawsar makes a big difference:
+          Quality sleep during travel is vital for conserving energy while fasting. Selecting the right seat layout on <span className="notranslate"> GoKawsar </span> makes a big difference:
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm text-gray-700 pt-2">
@@ -193,16 +193,16 @@ export default function RamadanTravelGuideBlog() {
           <li><strong>Hydrate Well During Sehri:</strong> Drink plenty of water and electrolyte solutions before starting your fast on travel days. Avoid overly salty or sugary meals.</li>
           <li><strong>Wear Light Cotton Clothing:</strong> Choose loose, breathable fabrics to stay cool during sunny daytime boarding at bus terminals.</li>
           <li><strong>Keep Prayer Times Tracked:</strong> Note down Maghrib and Fajr timings for intermediate districts along your highway route.</li>
-          <li><strong>Book Online via gokawsar:</strong> Avoid standing in long, tiring terminal queues under hot sun by securing e-tickets online beforehand.</li>
+          <li><strong>Book Online via <span className="notranslate"> GoKawsar </span>:</strong> Avoid standing in long, tiring terminal queues under hot sun by securing e-tickets online beforehand.</li>
         </ul>
       </section>
 
       <section className="bg-teal-950 text-white p-6 md:p-8 rounded-2xl mb-12 space-y-4">
         <h2 className="text-xl md:text-2xl font-bold text-white">
-          Book Your Ramadan Journey Comfortably on gokawsar!
+          Book Your Ramadan Journey Comfortably on <span className="notranslate"> GoKawsar </span>!
         </h2>
         <p className="text-xs md:text-sm text-teal-100 leading-relaxed">
-          Ensure a smooth, peaceful, and comfortable journey during this blessed month. Select your preferred bus operator, pick your ideal seat, and apply exclusive Ramadan promo vouchers on gokawsar today!
+          Ensure a smooth, peaceful, and comfortable journey during this blessed month. Select your preferred bus operator, pick your ideal seat, and apply exclusive Ramadan promo vouchers on <span className="notranslate"> GoKawsar </span> today!
         </p>
       </section>
 

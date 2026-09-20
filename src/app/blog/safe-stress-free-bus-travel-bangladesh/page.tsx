@@ -151,10 +151,10 @@ export default function SafeBusTravelGuideBlog() {
 
       <section className="bg-gray-900 text-white p-6 md:p-8 rounded-2xl mb-12 space-y-3">
         <h2 className="text-xl md:text-2xl font-bold text-white">
-          Travel Safely with gokawsar
+          Travel Safely with <span className="notranslate"> GoKawsar </span>
         </h2>
         <p className="text-xs md:text-sm text-gray-300 leading-relaxed">
-          With the right precautions and early planning, long-distance bus travel in Bangladesh can be an enjoyable, budget-friendly experience. Stay alert, travel comfortable, and explore the beautiful highways with gokawsar!
+          With the right precautions and early planning, long-distance bus travel in Bangladesh can be an enjoyable, budget-friendly experience. Stay alert, travel comfortable, and explore the beautiful highways with <span className="notranslate"> GoKawsar </span>!
         </p>
       </section>
 

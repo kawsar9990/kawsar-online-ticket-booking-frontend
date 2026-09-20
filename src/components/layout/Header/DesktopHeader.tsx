@@ -10,7 +10,7 @@ import {
   Plane, 
   Train, 
   Ship, 
-  Ticket, 
+  Hotel, 
   Sparkles, 
   LucideIcon
 } from 'lucide-react';
@@ -41,7 +41,7 @@ const navItems : NavItem[] = [
 { name: 'nav.air', href: '/air', icon: Plane },
 { name: 'nav.train', href: '/train', icon: Train },
 { name: 'nav.launch', href: 'launch', icon: Ship },
-{ name: 'nav.event', href: '/event', icon: Ticket },
+{ name: 'nav.hotel', href: '/hotel', icon: Hotel },
 { name: 'nav.park',  href: '/park', icon: Sparkles, isBeta: true },
 ];
 

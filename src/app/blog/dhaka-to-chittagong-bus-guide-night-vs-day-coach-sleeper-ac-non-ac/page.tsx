@@ -56,7 +56,7 @@ export default function DhakaToChittagongBusGuideBlog() {
           Thinking about taking a trip from Dhaka to Chittagong? It’s one of the most traveled arterial routes in Bangladesh, connecting the capital city with the commercial heart and port city of Chittagong. Covering approximately 250 km, the 4 to 6-hour highway journey offers diverse transport categories to suit every traveler’s budget and preferences.
         </p>
         <p>
-          Whether you prefer overnight sleeper berths, high-speed AC luxury liners, or budget-friendly Non-AC coaches, this ultimate guide breaks down everything you need to know before locking in your tickets on **gokawsar**.
+          Whether you prefer overnight sleeper berths, high-speed AC luxury liners, or budget-friendly Non-AC coaches, this ultimate guide breaks down everything you need to know before locking in your tickets on **<span className="notranslate"> GoKawsar </span>**.
         </p>
       </section>
 
@@ -187,13 +187,13 @@ export default function DhakaToChittagongBusGuideBlog() {
 
       <section className="bg-rose-50/60 p-6 md:p-8 rounded-2xl border border-rose-100 mb-12 space-y-4">
         <h2 className="text-xl md:text-2xl font-bold text-rose-950 border-b border-rose-200 pb-2">
-          How to Book Your Dhaka-Chittagong Bus Ticket on gokawsar
+          How to Book Your Dhaka-Chittagong Bus Ticket on <span className="notranslate"> GoKawsar </span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm text-gray-700 pt-2">
           <div className="bg-white p-4 rounded-xl border border-rose-100 shadow-sm space-y-1">
             <strong className="text-rose-900 font-bold block">1. Choose Origin & Destination</strong>
-            <p className="text-gray-600">Select Dhaka as departure point and Chittagong as destination on gokawsar.</p>
+            <p className="text-gray-600">Select Dhaka as departure point and Chittagong as destination on <span className="notranslate"> GoKawsar </span>.</p>
           </div>
 
           <div className="bg-white p-4 rounded-xl border border-rose-100 shadow-sm space-y-1">
@@ -218,7 +218,7 @@ export default function DhakaToChittagongBusGuideBlog() {
           Ready to Travel from Dhaka to Chittagong?
         </h2>
         <p className="text-xs md:text-sm text-rose-100 leading-relaxed">
-          Skip counter hassle, compare all top bus operators in real-time, and lock in your seats with exclusive promo discounts on gokawsar today!
+          Skip counter hassle, compare all top bus operators in real-time, and lock in your seats with exclusive promo discounts on <span className="notranslate"> GoKawsar </span> today!
         </p>
       </section>
 

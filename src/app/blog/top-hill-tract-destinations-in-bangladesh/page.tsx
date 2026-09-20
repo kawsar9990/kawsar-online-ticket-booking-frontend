@@ -61,7 +61,7 @@ export default function page() {
         </ul>
 
         <p>
-          With improved bus connectivity, reaching these destinations has become easier than ever. Routes from Dhaka to Bandarban, Rangamati, and Khagrachari are well-served by reliable operators, making hill-tract travel accessible for both solo adventurers and families. For safe and stress-free journeys, platforms like <strong>gokawsar</strong> provide convenient online booking options, ensuring travelers can plan ahead without the hassle of counter queues.
+          With improved bus connectivity, reaching these destinations has become easier than ever. Routes from Dhaka to Bandarban, Rangamati, and Khagrachari are well-served by reliable operators, making hill-tract travel accessible for both solo adventurers and families. For safe and stress-free journeys, platforms like <strong className="notranslate"> GoKawsar </strong> provide convenient online booking options, ensuring travelers can plan ahead without the hassle of counter queues.
         </p>
         <p>
           This guide will take you through the <strong>top hill-tract destinations in Bangladesh</strong>, highlighting their natural wonders, cultural richness, and practical travel tips. Whether you’re chasing waterfalls, boating across lakes, or simply soaking in the misty mountain air, the hill tracts promise experiences that linger long after the journey ends.

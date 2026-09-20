@@ -197,7 +197,7 @@ export default function SeasonalTravelGuideBlog() {
           Travel Smarter with Seasonal Planning
         </h2>
         <p className="text-xs md:text-sm text-gray-300 leading-relaxed">
-          Matching your destination with the right season makes a huge difference in safety, comfort, and overall travel experience. Plan ahead, pack according to the weather, and enjoy every journey with Gokawsar!
+          Matching your destination with the right season makes a huge difference in safety, comfort, and overall travel experience. Plan ahead, pack according to the weather, and enjoy every journey with <span className="notranslate"> GoKawsar </span>!
         </p>
       </section>
 

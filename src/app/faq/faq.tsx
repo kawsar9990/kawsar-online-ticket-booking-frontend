@@ -1,67 +1,80 @@
 'use client';
 
 import { useState } from 'react';
-
+import { useTranslation } from 'react-i18next';
 
 interface FaqItem {
   id: number;
-  question: string;
-  answer: string;
   category: string;
+  categoryKey: string;
+  questionKey: string;
+  answerKey: string;
 }
 
 const faqData: FaqItem[] = [
   {
     id: 1,
     category: 'Booking',
-    question: 'Can I buy any Bus Tickets from GoKawsar?',
-    answer:
-      'Ofcourse you can. With GoKawsar you can compare, book any available bus route at that moment from one screen seamlessly.',
+    categoryKey: 'faq.categories.booking',
+    questionKey: 'faq.questions.q1',
+    answerKey: 'faq.questions.a1',
   },
   {
     id: 2,
     category: 'Payment',
-    question: 'What kind of payment do you accept?',
-    answer:
-      'We accept all major payment options in Bangladesh including bKash, Nagad, Rocket, Visa, Mastercard, and Internet Banking.',
+    categoryKey: 'faq.categories.payment',
+    questionKey: 'faq.questions.q2',
+    answerKey: 'faq.questions.a2',
   },
   {
     id: 3,
     category: 'Payment',
-    question: 'Do you accept Cash payments?',
-    answer:
-      'Yes, cash payments are accepted for counter collections. However, for instant online seat confirmation, digital payment is recommended.',
+    categoryKey: 'faq.categories.payment',
+    questionKey: 'faq.questions.q3',
+    answerKey: 'faq.questions.a3',
   },
   {
     id: 4,
     category: 'Ticketing',
-    question: 'How do I get my Ticket?',
-    answer:
-      'Once your payment is confirmed, an E-Ticket with booking ID will be sent to your email & phone via SMS. You can also download it directly from your account dashboard.',
+    categoryKey: 'faq.categories.ticketing',
+    questionKey: 'faq.questions.q4',
+    answerKey: 'faq.questions.a4',
   },
   {
     id: 5,
     category: 'Booking',
-    question: 'Can I cancel or reschedule my bus ticket?',
-    answer:
-      'Yes, you can request a cancellation or schedule change from your user dashboard at least 6 hours before the bus departure time.',
+    categoryKey: 'faq.categories.booking',
+    questionKey: 'faq.questions.q5',
+    answerKey: 'faq.questions.a5',
   },
   {
     id: 6,
     category: 'Ticketing',
-    question: 'Do I need to print my E-Ticket?',
-    answer:
-      'In most cases, showing the SMS or digital PDF ticket on your mobile phone at the bus counter is sufficient to collect your boarding pass.',
+    categoryKey: 'faq.categories.ticketing',
+    questionKey: 'faq.questions.q6',
+    answerKey: 'faq.questions.a6',
   },
 ];
 
+
 export default function FaqPage() {
 const [openId, setOpenId] = useState<number | null>(1);
+const { t } = useTranslation();
 const [selectedCategory, setSelectedCategory] = useState<string>('All');
-const categories = ['All', 'Booking', 'Payment', 'Ticketing'];
+
+
+const categories = [
+    { key: 'All', labelKey: 'faq.categories.all' },
+    { key: 'Booking', labelKey: 'faq.categories.booking' },
+    { key: 'Payment', labelKey: 'faq.categories.payment' },
+    { key: 'Ticketing', labelKey: 'faq.categories.ticketing' },
+  ];
+
 const toggleFaq = (id: number) => {
   setOpenId(openId === id ? null : id);
 };
+
+
 
 const filteredFaqs =
 selectedCategory === 'All'
@@ -69,15 +82,15 @@ selectedCategory === 'All'
 : faqData.filter((item) => item.category === selectedCategory);
 
 return (
-<div className="bg-[#f8fafc] md:min-h-screen pt-10 md:pt-25 py-10 px-4 sm:px-6 lg:px-8 font-sans antialiased">
+<div className="bg-[#f8fafc] md:min-h-screen pt-10 md:pt-25 py-10 px-4 sm:px-6 lg:px-8 notranslate font-sans antialiased">
 <div className="max-w-4xl mx-auto space-y-8">
 
 <div className="text-center max-w-xl mx-auto">
   <h1 className="text-[17px] md:text-2xl font-bold text-slate-900 tracking-tight">
-    Frequently Asked Questions
+    {t('faq.title')}
   </h1>
   <p className="mt-1.5 text-[9px] md:text-xs text-slate-500">
-    Have questions about booking bus tickets on GoKawsar? Reach out to Kawsar Developer or find fast answers right here.
+   {t('faq.subtitle')}
   </p>
 </div>
 
@@ -85,15 +98,15 @@ return (
 <div className="flex flex-wrap items-center justify-center gap-2">
   {categories.map((cat) => (
     <button
-      key={cat}
-      onClick={() => setSelectedCategory(cat)}
+      key={cat.key}
+      onClick={() => setSelectedCategory(cat.key)}
       className={`px-4 py-1.5 text-xs font-medium rounded-full transition-all duration-200 cursor-pointer ${
-        selectedCategory === cat
+        selectedCategory === cat.key
           ? 'bg-blue-600 text-white shadow-sm'
           : 'bg-white text-slate-600 border border-slate-200 hover:border-slate-300'
       }`}
     >
-      {cat}
+     {t(cat.labelKey)}
     </button>
   ))}
 </div>
@@ -117,7 +130,7 @@ return (
   }`}
 >
 <span className="text-[10px] md:text-[15px] font-medium pr-4 capitalize">
-  {item.question}
+  {t(item.questionKey)}
 </span>
                   
   <svg
@@ -140,7 +153,7 @@ return (
   
 {isOpen && (
  <div className="text-[10px] capitalize md:text-[12px] px-6 py-4 bg-white text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-100/60">
-   {item.answer}
+   {t(item.answerKey)}
  </div>
 )}
 </div>
@@ -151,16 +164,16 @@ return (
 
 <div className="bg-white p-5 rounded-xl border border-slate-200/80 shadow-sm flex flex-col sm:flex-row items-start md:items-center md:justify-between gap-4">
 <div className='flex flex-col items-start gap-3 md:gap-0'>
-<h3 className="text-sm font-bold text-slate-800">Still need help?</h3>
+<h3 className="text-sm font-bold text-slate-800">{t('faq.still_help_title')}</h3>
 <p className="text-[9px] md:text-xs text-slate-500 mt-0.5">
-  Can't find the answer you are looking for? Please contact Kawsar Developer & our support team.
+{t('faq.still_help_desc')}
 </p>
 </div>
 <a
 href="/contact"
 className="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-medium text-xs rounded-lg shadow-sm transition-all whitespace-nowrap"
 >
-Contact Support
+{t('faq.contact_btn')}
 </a>
 </div>
 

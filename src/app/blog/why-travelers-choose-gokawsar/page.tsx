@@ -33,7 +33,7 @@ export default function WhyTravelersChooseGokawsarBlog() {
           Platform Advantages & Customer Support
         </span>
         <h1 className="text-3xl md:text-5xl font-black text-gray-900 mt-4 mb-4 leading-tight">
-          Why Travelers Choose gokawsar: The #1 Smart Travel Ecosystem
+          Why Travelers Choose <span className="notranslate"> GoKawsar </span>: The #1 Smart Travel Ecosystem
         </h1>
 
           <div className="flex items-center gap-4 text-sm text-gray-500">
@@ -56,7 +56,7 @@ export default function WhyTravelersChooseGokawsarBlog() {
           Travel in Bangladesh has evolved faster in the last decade than ever before. Gone are the frustrating days when traveling meant standing in endless lines at congested bus terminals, dealing with unpredictable ticket black-marketers, or stressing over unconfirmed sea vessel cabins for holiday trips.
         </p>
         <p>
-          Today, millions of daily commuters, holiday tourists, and corporate travelers choose **gokawsar** as their trusted digital travel companion. By offering a unified, reliable, transparent, and lightning-fast booking engine across buses, launches, air flights, and ocean cruise ships, gokawsar has redefined standard transit into a premium digital journey.
+          Today, millions of daily commuters, holiday tourists, and corporate travelers choose **<span className="notranslate"> GoKawsar </span>** as their trusted digital travel companion. By offering a unified, reliable, transparent, and lightning-fast booking engine across buses, launches, air flights, and ocean cruise ships, <span className="notranslate"> GoKawsar </span> has redefined standard transit into a premium digital journey.
         </p>
       </section>
 
@@ -65,7 +65,7 @@ export default function WhyTravelersChooseGokawsarBlog() {
           Key Reasons Behind Passenger Loyalty
         </h2>
         <p className="text-xs md:text-sm text-gray-600">
-          Discover why travelers consistently prefer booking their trips on gokawsar over traditional counter channels:
+          Discover why travelers consistently prefer booking their trips on <span className="notranslate"> GoKawsar </span> over traditional counter channels:
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-xs md:text-sm text-gray-700 pt-2">
@@ -262,7 +262,7 @@ export default function WhyTravelersChooseGokawsarBlog() {
           </div>
 
           <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm space-y-2">
-            <p className="text-gray-600 italic">I travel regularly between Dhaka and Barishal for business. Booking launch single AC cabins through gokawsar saves my time and avoids terminal counter chaos.</p>
+            <p className="text-gray-600 italic">I travel regularly between Dhaka and Barishal for business. Booking launch single AC cabins through <span className="notranslate"> GoKawsar </span> saves my time and avoids terminal counter chaos.</p>
             <p className="font-bold text-gray-900 text-right">— Tanvir Hossain, Barishal</p>
           </div>
         </div>
@@ -273,7 +273,7 @@ export default function WhyTravelersChooseGokawsarBlog() {
           Ready to Experience Modern Travel?
         </h2>
         <p className="text-xs md:text-sm text-rose-100 leading-relaxed">
-          Join hundreds of thousands of satisfied travelers across Bangladesh. Plan your next vacation, weekend trip, or home visit with gokawsar and enjoy guaranteed seats, exclusive discount vouchers, and zero-hassle travel.
+          Join hundreds of thousands of satisfied travelers across Bangladesh. Plan your next vacation, weekend trip, or home visit with <span className="notranslate"> GoKawsar </span> and enjoy guaranteed seats, exclusive discount vouchers, and zero-hassle travel.
         </p>
       </section>
 

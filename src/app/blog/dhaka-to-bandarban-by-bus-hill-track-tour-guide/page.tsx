@@ -222,16 +222,13 @@ export default function DhakaToBandarbanBlog() {
         <ul className="list-disc pl-5 space-y-2 text-xs md:text-sm text-emerald-100 leading-relaxed">
           <li><strong>Motion Sickness:</strong> Mountain roads beyond Keranihat have continuous hairpin bends. Keep motion sickness medicine ready if you are prone to dizziness.</li>
           <li><strong>Cash Is King:</strong> Mobile networks and ATM booths can be limited in interior regions like Ruma and Thanchi. Always carry enough cash.</li>
-          <li><strong>Book Early:</strong> During winter peak travel season, bus tickets sell out quickly. Reserve your seats 5–7 days in advance using gokawsar.</li>
+          <li><strong>Book Early:</strong> During winter peak travel season, bus tickets sell out quickly. Reserve your seats 5–7 days in advance using <span className="notranslate"> GoKawsar </span>.</li>
         </ul>
       </section>
 
       <div className="pt-6 border-t border-gray-200 flex justify-between items-center text-xs md:text-sm font-bold text-red-600">
         <Link href="/blog" className="hover:underline">
           ‹ Back to all blogs
-        </Link>
-        <Link href="/" className="hover:underline">
-          Explore gokawsar ›
         </Link>
       </div>
 

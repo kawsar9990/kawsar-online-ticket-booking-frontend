@@ -99,6 +99,144 @@ html {
   background: #4338ca !important;
 }
 
+.swiper {
+  padding-bottom: 50px !important;
+}
+
+.swiper-pagination {
+  bottom: 0px !important;
+}
+
+
+.rdp-booking {
+  --rdp-accent-color: #1882FF !important;
+  --rdp-accent-background-color: #e8f0fe !important;
+  --rdp-range_middle-color: #1e293b !important;
+  --rdp-day-height: 2rem !important;
+  --rdp-day-width: 2rem !important;
+  --rdp-day_button-height: 1.85rem !important;
+  --rdp-day_button-width: 1.85rem !important;
+  --rdp-months-gap: 0 !important;
+  --rdp-outside-opacity: 0.4 !important;
+  --rdp-disabled-opacity: 0.35 !important;
+}
+
+.rdp-booking .rdp-weekday {
+  color: #94a3b8 !important;
+  font-weight: 400 !important;
+  font-size: 10px !important;
+}
+
+.rdp-booking .rdp-day_button {
+  font-weight: 500 !important;
+  font-size: 12px !important;
+}
+
+.rdp-booking .rdp-month_grid {
+  border-collapse: separate !important;
+  border-spacing: 0 3px !important;
+}
+
+.rdp-booking .rdp-week td:first-child.rdp-range_middle,
+.rdp-booking .rdp-week td:first-child.rdp-range_start {
+  border-top-left-radius: 9999px !important;
+  border-bottom-left-radius: 9999px !important;
+}
+
+.rdp-booking .rdp-week td:last-child.rdp-range_middle,
+.rdp-booking .rdp-week td:last-child.rdp-range_end {
+  border-top-right-radius: 9999px !important;
+  border-bottom-right-radius: 9999px !important;
+}
+
+
+.rdp-responsive-booking {
+  --rdp-accent-color: #2582ff !important;
+  --rdp-accent-background-color: #eef6ff !important;
+  --rdp-range_middle-color: #2582ff !important;
+  margin: 0 !important;
+}
+
+.rdp-responsive-booking .rdp-month_caption {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  color: #1e293b !important;
+}
+
+.rdp-responsive-booking .rdp-nav {
+  display: flex !important;
+  justify-content: space-between !important;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 0 !important;
+  padding: 0 4px !important;
+}
+
+.rdp-responsive-booking .rdp-month_grid {
+  margin-top: 15px !important;
+  width: 100% !important;
+  border-collapse: separate !important;
+  border-spacing: 0 3px !important;
+}
+
+.rdp-responsive-booking .rdp-weekday {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: #94a3b8 !important;
+  text-transform: uppercase !important;
+  padding-bottom: 8px !important;
+}
+
+.rdp-responsive-booking .rdp-day_button {
+  border-radius: 9999px !important;
+  font-size: 13px !important;
+  width: 36px !important;
+  height: 36px !important;
+}
+
+.rdp-responsive-booking .rdp-selected .rdp-day_button {
+  background-color: #2582ff !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  border-radius: 9999px !important;
+}
+
+.rdp-responsive-booking .rdp-range_middle .rdp-day_button {
+  background-color: #eef6ff !important;
+  color: #2582ff !important;
+  border-radius: 0 !important;
+}
+
+.rdp-responsive-booking .rdp-range_start .rdp-day_button {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-left-radius: 9999px !important;
+  border-bottom-left-radius: 9999px !important;
+}
+
+.rdp-responsive-booking .rdp-range_end .rdp-day_button {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 9999px !important;
+  border-bottom-right-radius: 9999px !important;
+}
+
+.rdp-responsive-booking .rdp-week td:first-child.rdp-range_middle {
+  border-top-left-radius: 9999px !important;
+  border-bottom-left-radius: 9999px !important;
+}
+
+.rdp-responsive-booking .rdp-week td:last-child.rdp-range_middle {
+  border-top-right-radius: 9999px !important;
+  border-bottom-right-radius: 9999px !important;
+}
+
+
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

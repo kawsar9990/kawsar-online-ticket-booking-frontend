@@ -17,17 +17,21 @@ function LayoutContent({children} : {children: ReactNode}){
 const pathname = usePathname();
 const { isNotfound } = useNotFound();
 const hideHeaderFooterRoutes = ['/not-found'].includes(pathname);
-const shouldhide = hideHeaderFooterRoutes || isNotfound
+const shouldHideHeaderFooter = hideHeaderFooterRoutes || isNotfound
+
+const isHotelDetailsPage = pathname.startsWith('/hotel-deal');
+const shouldHideFooter = shouldHideHeaderFooter || isHotelDetailsPage;
+
 
 return(
 <>
 <I18nProvider>
 <ToastContainer style={{ zIndex: 999999999 }} />
 <LoaderProvider>
-{!shouldhide && <Header />}
+{!shouldHideHeaderFooter && <Header />}
 <SmoothScrollProvider />
 {children}
-{!shouldhide && <Footerpage />}
+{!shouldHideFooter && <Footerpage />}
 </LoaderProvider>
 </I18nProvider>
 </>

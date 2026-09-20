@@ -30,10 +30,10 @@ return (
     1. Introduction and Agreement
   </h2>
   <p className="mb-3">
-    Welcome to <strong>GoKawsar</strong>, a premier travel and destination information platform founded and maintained by <strong>Kawsar Ahmed</strong>. By accessing, browsing, or using this platform, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.
+    Welcome to <strong className="notranslate"> GoKawsar </strong>, a premier travel and destination information platform founded and maintained by <strong>Kawsar Ahmed</strong>. By accessing, browsing, or using this platform, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.
   </p>
   <p>
-    If you do not agree with any part of these terms, you must refrain from using the <strong>GoKawsar</strong> website and its associated services.
+    If you do not agree with any part of these terms, you must refrain from using the <strong className="notranslate"> GoKawsar </strong> website and its associated services.
   </p>
 </section>
 
@@ -43,11 +43,11 @@ return (
     2. Platform Usage & Eligibility
   </h2>
   <p className="mb-3">
-    <strong>GoKawsar</strong> grants you a personal, non-exclusive, non-transferable, and limited right to enter and use the site for personal, non-commercial travel research and exploration.
+    <strong className="notranslate"> GoKawsar </strong> grants you a personal, non-exclusive, non-transferable, and limited right to enter and use the site for personal, non-commercial travel research and exploration.
   </p>
   <ul className="list-disc pl-6 space-y-2 text-gray-600">
     <li>You must be at least 18 years old or under adult supervision to use our services.</li>
-    <li>You agree not to use <strong>GoKawsar</strong> for any unlawful purposes or activities that violate local or international laws.</li>
+    <li>You agree not to use <strong className="notranslate"> GoKawsar </strong> for any unlawful purposes or activities that violate local or international laws.</li>
     <li>Scraping, automated data extraction, or copying destination data without written authorization from <strong>Kawsar Ahmed</strong> is strictly prohibited.</li>
   </ul>
 </section>
@@ -58,13 +58,13 @@ return (
     3. Accuracy of Travel Information & Content
   </h2>
   <p className="mb-3">
-    At <strong>GoKawsar</strong>, we strive to provide accurate, curated, and up-to-date information regarding various travel destinations, attractions, locations, and cultural landmarks across Bangladesh and beyond.
+    At <strong className="notranslate"> GoKawsar </strong>, we strive to provide accurate, curated, and up-to-date information regarding various travel destinations, attractions, locations, and cultural landmarks across Bangladesh and beyond.
   </p>
   <p className="mb-3">
-    However, local conditions, transport schedules, weather, entry fees, and attraction availability change constantly. <strong>GoKawsar</strong> and <strong>Kawsar Ahmed</strong> do not guarantee 100% accuracy, completeness, or timeliness of the content published on the site.
+    However, local conditions, transport schedules, weather, entry fees, and attraction availability change constantly. <strong className="notranslate"> GoKawsar </strong> and <strong>Kawsar Ahmed</strong> do not guarantee 100% accuracy, completeness, or timeliness of the content published on the site.
   </p>
   <p>
-    Travelers are strongly advised to independently verify travel details, safety advisories, and local requirements before visiting any location mentioned on <strong>GoKawsar</strong>.
+    Travelers are strongly advised to independently verify travel details, safety advisories, and local requirements before visiting any location mentioned on <strong className="notranslate"> GoKawsar </strong>.
   </p>
 </section>
 
@@ -74,10 +74,10 @@ return (
     4. User Responsibilities & Safety Disclaimer
   </h2>
   <p className="mb-3">
-    Your safety during travel is your sole responsibility. <strong>GoKawsar</strong> acts as an information guide only and is not responsible for any personal injury, accidents, delays, property damage, financial losses, or inconvenience experienced during your travel.
+    Your safety during travel is your sole responsibility. <strong className="notranslate"> GoKawsar </strong> acts as an information guide only and is not responsible for any personal injury, accidents, delays, property damage, financial losses, or inconvenience experienced during your travel.
   </p>
   <p>
-    By using <strong>GoKawsar</strong>, you agree to assume all risks associated with visiting destinations, participating in activities, or traveling to locations featured on our platform.
+    By using <strong className="notranslate"> GoKawsar </strong>, you agree to assume all risks associated with visiting destinations, participating in activities, or traveling to locations featured on our platform.
   </p>
 </section>
 
@@ -87,10 +87,10 @@ return (
     5. Intellectual Property Rights
   </h2>
   <p className="mb-3">
-    All materials available on <strong>GoKawsar</strong>—including but not limited to website layout, UI design, logos, graphics, source code, text content, and curated destination lists—are the intellectual property of <strong>Kawsar Ahmed</strong> and <strong>GoKawsar</strong>, unless otherwise credited.
+    All materials available on <strong className="notranslate"> GoKawsar </strong>—including but not limited to website layout, UI design, logos, graphics, source code, text content, and curated destination lists—are the intellectual property of <strong>Kawsar Ahmed</strong> and <strong className="notranslate"> GoKawsar </strong>, unless otherwise credited.
   </p>
   <p>
-    You may not reproduce, redistribute, modify, or create derivative works from any content on <strong>GoKawsar</strong> without express written permission from <strong>Kawsar Ahmed</strong>.
+    You may not reproduce, redistribute, modify, or create derivative works from any content on <strong className="notranslate"> GoKawsar </strong> without express written permission from <strong>Kawsar Ahmed</strong>.
   </p>
 </section>
 
@@ -100,10 +100,10 @@ return (
     6. Third-Party Links, APIs & External Services
   </h2>
   <p className="mb-3">
-    The <strong>GoKawsar</strong> platform may contain links to third-party websites, booking services, external maps, or image services (such as Cloudinary or Google Maps).
+    The <strong className="notranslate"> GoKawsar </strong> platform may contain links to third-party websites, booking services, external maps, or image services (such as Cloudinary or Google Maps).
   </p>
   <p>
-    These external links are provided solely for user convenience. <strong>GoKawsar</strong> does not endorse or take responsibility for the content, privacy policies, or practices of any third-party websites or services.
+    These external links are provided solely for user convenience. <strong className="notranslate"> GoKawsar </strong> does not endorse or take responsibility for the content, privacy policies, or practices of any third-party websites or services.
   </p>
 </section>
 
@@ -113,7 +113,7 @@ return (
     7. Limitation of Liability
   </h2>
   <p>
-    In no event shall <strong>GoKawsar</strong>, its developer <strong>Kawsar Ahmed</strong>, or its partners be liable for any indirect, incidental, special, or consequential damages resulting from your access to, or inability to access and use, this platform or any content provided herein.
+    In no event shall <strong className="notranslate"> GoKawsar </strong>, its developer <strong>Kawsar Ahmed</strong>, or its partners be liable for any indirect, incidental, special, or consequential damages resulting from your access to, or inability to access and use, this platform or any content provided herein.
   </p>
 </section>
 
@@ -123,7 +123,7 @@ return (
     8. Modifications to Terms
   </h2>
   <p>
-    <strong>GoKawsar</strong> reserves the right to update, modify, or replace these Terms and Conditions at any time without prior notice. Any updates will be reflected on this page with a revised {lastUpdated} date. Continued use of <strong>GoKawsar</strong> after changes are posted constitutes your acceptance of the new terms.
+    <strong className="notranslate"> GoKawsar </strong> reserves the right to update, modify, or replace these Terms and Conditions at any time without prior notice. Any updates will be reflected on this page with a revised {lastUpdated} date. Continued use of <strong className="notranslate"> GoKawsar </strong> after changes are posted constitutes your acceptance of the new terms.
   </p>
 </section>
 

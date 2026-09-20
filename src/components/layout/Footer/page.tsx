@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslation } from 'react-i18next';
 import { FaFacebookF, FaLinkedinIn, FaWhatsapp, FaTelegram ,FaInstagram  } from "react-icons/fa";
 import { Send } from "lucide-react";
 import { notify } from "@/utils/toast";
@@ -11,6 +12,7 @@ import { notify } from "@/utils/toast";
 export default function Footerpage() {
 
 const [email, setEmail] = useState("");
+const { t } = useTranslation();
 
 const handleSubscribe = () => {
   if(email){
@@ -42,15 +44,15 @@ return (
 </Link>
 
 <p className="text-sm text-gray-500 max-w-sm leading-relaxed capitalize">
-  GoKawsar – Smart Online Ticket Booking & Travel Management ERP for passengers and transport services across Bangladesh.
+  <span className="notranslate"> GoKawsar </span> – Smart Online Ticket Booking & Travel Management ERP for passengers and transport services across Bangladesh.
 </p>
 
 <div className="pt-1 max-w-sm">
 <h4 className="text-base font-semibold text-gray-900 mb-2">
-  Keep up with GoKawsar platform
+  Keep up with <span className="notranslate"> GoKawsar </span>platform
 </h4>
               
-  <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-2">
+  <form onSubmit={handleSubscribe} className="flex flex-col notranslate sm:flex-row gap-2">
     <div className="relative w-full">
       <input
         type="email"
@@ -116,16 +118,16 @@ return (
   </div>
 </div>
 
-<div>
-  <h3 className="font-bold text-gray-900  text-base mb-4">
-    Explore
+<div className="">
+  <h3 className="font-bold notranslate text-gray-900 text-base mb-4">
+    {t('footer.Explore')}
   </h3>
   
   <ul className="space-y-3 text-[13px] xl:text-[15px] text-gray-600 gray-400">
     <li><Link href="/about" className="hover:text-emerald-600 hover:underline transition-colors">About Us</Link></li>
-    <li><Link href="/contact" className="hover:text-emerald-600 hover:underline transition-colors">Contact Us</Link></li>
-    <li><Link href="/why-gokawsar" className="hover:text-emerald-600 hover:underline transition-colors">Why Gokawsar</Link></li>
-    <li><Link href="/our-office" className="hover:text-emerald-600 hover:underline transition-colors">Our Offices</Link></li>
+    <li><Link href="/contact" className="hover:text-emerald-600 hover:underline transition-colors notranslate">{t('footer.Contact Us')}</Link></li>
+    <li><Link href="/why-gokawsar" className="hover:text-emerald-600 hover:underline transition-colors notranslate">{t('footer.Why Gokawsar')}</Link></li>
+    <li><Link href="/our-office" className="hover:text-emerald-600 hover:underline transition-colors notranslate">{t('footer.Our Office')}</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Cancel Ticket</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Bus Reservation</Link></li>
   </ul>
@@ -141,7 +143,7 @@ return (
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Air Tickets</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Train Tickets</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Launch Tickets</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Event Tickets</Link></li>
+    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Hotel Tickets</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Park Tickets</Link></li>
   </ul>
 </div>
@@ -154,7 +156,7 @@ return (
   <ul className="space-y-3 text-[13px] xl:text-[15px] text-gray-600 gray-400">
     <li><Link href="/how-to-use" className="hover:text-emerald-600 hover:underline transition-colors">How To Use</Link></li>
     <li><Link href="/pay-us" className="hover:text-emerald-600 hover:underline transition-colors">How To Pay</Link></li>
-    <li><Link href="/faq" className="hover:text-emerald-600 hover:underline transition-colors">FAQ</Link></li>
+    <li><Link href="/faq" className="hover:text-emerald-600 hover:underline transition-colors notranslate">{t('footer.FAQ')}</Link></li>
     <li><Link href="/refund-policy" className="hover:text-emerald-600 hover:underline transition-colors">Refund Policy</Link></li>
     <li><Link href="/privacy-policy" className="hover:text-emerald-600 hover:underline transition-colors">Privacy Policy</Link></li>
     <li><Link href="/terms-condition" className="hover:text-emerald-600 hover:underline transition-colors">Terms & Condition</Link></li>
@@ -168,8 +170,8 @@ return (
   </h3>
   <ul className="space-y-3 text-[13px] xl:text-[15px] text-gray-600 gray-400">
     <li><Link href="/blog" className="hover:text-emerald-600 hover:underline transition-colors">Blogs</Link></li>
-    <li><Link href="/popular-routes" className="hover:text-emerald-600 hover:underline transition-colors">Popular Routes</Link></li>
-  </ul>
+     <li><Link href="/promotions" className="hover:text-emerald-600 hover:underline transition-colors">Promotion</Link></li>
+    </ul>
 </div>
 
 </div>
@@ -181,8 +183,8 @@ return (
            
 
 <div className="flex items-center gap-4 sm:gap-6 ">
-  <Link href="tel:+8801602084187" className="hover:text-emerald-600 transition-colors">Support Center</Link>
-  <Link href="/help-center" className="hover:text-emerald-600 transition-colors">Help Center</Link>
+  <Link href="tel:+8801602084187" className="hover:text-emerald-600 transition-colors notranslate">{t('footer.Support Center')}</Link>
+  <Link href="/help-center" className="hover:text-emerald-600 transition-colors notranslate">{t('footer.Help Center')}</Link>
 </div>
 
 

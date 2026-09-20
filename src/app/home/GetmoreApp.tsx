@@ -33,7 +33,7 @@ return (
 <div className="lg:col-span-6 space-y-6">   
 
 <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-800 tracking-tight leading-snug">
-  Get More Out of <span className="text-gray-900">GoKawsar</span> with our{' '}
+  Get More Out of <span className="text-gray-900 notranslate">GoKawsar</span> with our{' '}
   <span className="text-emerald-600 font-bold">mobile app</span>
 </h2>
 

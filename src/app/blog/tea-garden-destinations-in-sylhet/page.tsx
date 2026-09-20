@@ -62,7 +62,7 @@ return (
         </ul>
 
         <p>
-          With reliable bus routes connecting Dhaka to Sylhet, reaching these tea gardens has become easier than ever. Platforms like <strong>gokawsars</strong> make planning seamless, offering travelers safe and convenient booking options.
+          With reliable bus routes connecting Dhaka to Sylhet, reaching these tea gardens has become easier than ever. Platforms like <strong className="notranslate">gokawsars</strong> make planning seamless, offering travelers safe and convenient booking options.
         </p>
         <p>
           This guide explores the <strong>top tea garden destinations in Sylhet</strong>, highlighting their natural charm, cultural richness, and practical travel tips. Whether you’re a tea enthusiast, a photographer, or simply someone seeking peace in nature, Sylhet’s tea gardens promise an unforgettable journey.
@@ -329,7 +329,7 @@ return (
           Whether you’re sipping layered tea in Srimangal, boating along the Piain River in Jaflong, gliding across Lala Khal’s turquoise waters, or trekking to Madhabkunda’s roaring waterfall, Sylhet promises memories that linger long after the journey ends.
         </p>
         <p className="font-semibold text-gray-900">
-          So pack your bags, book your tickets with <span className="text-red-600 font-bold">gokawsars</span>, and let Sylhet’s tea gardens refresh your soul one cup at a time.
+          So pack your bags, book your tickets with <span className="text-red-600 font-bold notranslate">gokawsars</span>, and let Sylhet’s tea gardens refresh your soul one cup at a time.
         </p>
 
     

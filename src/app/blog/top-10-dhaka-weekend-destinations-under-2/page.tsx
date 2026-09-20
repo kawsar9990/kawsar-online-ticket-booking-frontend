@@ -56,7 +56,7 @@ export default function WeekendBusRoutesBlog() {
           Life in Dhaka is fast-paced, energetic, and demanding. After a long week of work or study, taking a quick break is essential to recharge your mind. Fortunately, you do not need to take long leaves or travel far away to experience scenic beauty, heritage, and peaceful resorts.
         </p>
         <p>
-          There are several incredible destinations located within a 2-hour bus journey from Dhaka. With **gokawsar**, booking your express bus seats for weekend escapes is faster and more convenient than ever before.
+          There are several incredible destinations located within a 2-hour bus journey from Dhaka. With **<span className="notranslate"> GoKawsar </span>**, booking your express bus seats for weekend escapes is faster and more convenient than ever before.
         </p>
       </section>
 
@@ -103,7 +103,7 @@ export default function WeekendBusRoutesBlog() {
             <p><strong>Estimated Travel Time:</strong> 45 minutes to 1.2 hours</p>
             <p><strong>Main Attractions:</strong> Fresh Hilsha dining, Boat rides on Padma, Bridge Viewpoint</p>
             <p><strong>Best Bus Routes:</strong> Jatrabari / Gulistan Express Services to Old Mawa Ghat</p>
-            <p><strong>gokawsar Booking Tip:</strong> Book afternoon return slots on gokawsar to catch sunset views over the river.</p>
+            <p><strong>gokawsar Booking Tip:</strong> Book afternoon return slots on <span className="notranslate"> GoKawsar </span> to catch sunset views over the river.</p>
           </div>
         </div>
 
@@ -155,7 +155,7 @@ export default function WeekendBusRoutesBlog() {
             <p><strong>Estimated Travel Time:</strong> 1.5 hours to 2 hours</p>
             <p><strong>Main Attractions:</strong> Zamindar Palace Museum, Neoclassical Pillars, Courtyards</p>
             <p><strong>Best Bus Routes:</strong> Gabtoli to Saturia / Manikganj Direct Bus Service</p>
-            <p><strong>gokawsar Booking Tip:</strong> Direct express tickets are available on gokawsar with guaranteed return seats.</p>
+            <p><strong>gokawsar Booking Tip:</strong> Direct express tickets are available on <span className="notranslate"> GoKawsar </span> with guaranteed return seats.</p>
           </div>
         </div>
 
@@ -295,10 +295,10 @@ export default function WeekendBusRoutesBlog() {
 
       <section className="bg-emerald-950 text-white p-6 md:p-8 rounded-2xl mb-12 space-y-4">
         <h2 className="text-xl md:text-2xl font-bold text-white">
-          Book Your Weekend Getaway Bus Tickets on gokawsar!
+          Book Your Weekend Getaway Bus Tickets on <span className="notranslate"> GoKawsar </span>!
         </h2>
         <p className="text-xs md:text-sm text-emerald-100 leading-relaxed">
-          Dont waste time waiting at terminal counters. Select your preferred seat, compare top bus operators, and book instantly with smooth digital payments on gokawsar.
+          Dont waste time waiting at terminal counters. Select your preferred seat, compare top bus operators, and book instantly with smooth digital payments on <span className="notranslate"> GoKawsar </span>.
         </p>
       </section>
 

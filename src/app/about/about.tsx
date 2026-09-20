@@ -49,7 +49,7 @@ const features = [
   
   
 return (
-<div className="bg-white text-gray-800 min-h-screen font-sans xl:pt-7 selection:bg-blue-500 selection:text-white">
+<div className="bg-white text-gray-800 min-h-screen font-sans xl:pt-7">
       
 
 <section className="bg-white py-16 sm:py-20 px-4 sm:px-6 lg:px-8 text-center border-b border-gray-100">
@@ -58,7 +58,7 @@ return (
       Who we are?
     </h2>
 <p className="text-left text-gray-600 text-base sm:text-lg leading-relaxed font-normal max-w-4xl mx-auto">
-  We started with one simple goal— to make booking effortless! As a tech-driven platform, <strong className="text-gray-900 font-semibold">gokawsar</strong> empowers users to choose, compare, and secure bookings in just a few taps. More than just a booking service, <strong className="text-gray-900 font-semibold">gokawsar</strong> is built to simplify your everyday travel and booking needs!
+  We started with one simple goal— to make booking effortless! As a tech-driven platform, <strong className="text-gray-900 font-semibold notranslate">gokawsar</strong> empowers users to choose, compare, and secure bookings in just a few taps. More than just a booking service, <strong className="text-gray-900 notranslate font-semibold"> gokawsar </strong> is built to simplify your everyday travel and booking needs!
 </p>
   </div>
 </section>
@@ -76,7 +76,7 @@ return (
   Driven by Passion & Technical Innovation
 </h2>
 <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-  <strong className="text-gray-800">gokawsar</strong> was founded by <strong className="text-gray-900">Kawsar Ahmed</strong>, a passionate web engineer with a vision to redefine how users interact with booking services online.
+  <strong className="text-gray-800 notranslate">gokawsar</strong> was founded by <strong className="text-gray-900">Kawsar Ahmed</strong>, a passionate web engineer with a vision to redefine how users interact with booking services online.
 </p>
 <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
   Recognizing the friction users face with slow interfaces, redundant forms, and security concerns, Kawsar built this platform with a laser focus on high performance, reliable logic, and an intuitive user experience.
@@ -121,7 +121,7 @@ return (
   
 <section className="space-y-10 sm:space-y-12">
 <div className="text-center space-y-3">
-  <h2 className="text-2xl sm:text-4xl font-bold text-gray-900">Why Choose gokawsar?</h2>
+  <h2 className="text-2xl sm:text-4xl font-bold text-gray-900">Why Choose <span className="notranslate"> GoKawsar </span>?</h2>
   <p className="text-gray-600 text-sm sm:text-base max-w-xl mx-auto">
     We don’t just process bookings; we craft reliable and hassle-free digital experiences.
   </p>

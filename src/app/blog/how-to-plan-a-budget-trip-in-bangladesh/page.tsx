@@ -56,7 +56,7 @@ export default function BudgetTripPlanBlog() {
           Bangladesh is a country rich in natural diversity, from endless sandy beaches and lush tea gardens to historic riverways. Contrary to popular belief, experiencing these breathtaking destinations doet require a fortune. With smart planning, off-season booking, and online transport tools, you can explore the entire country on a shoestring budget.
         </p>
         <p>
-          Using **gokawsar**, travelers can compare non-AC and AC bus fares, reserve budget overnight launch deck seats, grab voucher codes, and lock in affordable stay options. Here is a master guide to planning a budget-friendly trip across top Bangladeshi tourist destinations.
+          Using **<span className="notranslate"> GoKawsar </span>**, travelers can compare non-AC and AC bus fares, reserve budget overnight launch deck seats, grab voucher codes, and lock in affordable stay options. Here is a master guide to planning a budget-friendly trip across top Bangladeshi tourist destinations.
         </p>
       </section>
 
@@ -76,7 +76,7 @@ export default function BudgetTripPlanBlog() {
 
           <div className="bg-white p-4 rounded-xl border border-amber-100 shadow-sm space-y-2">
             <strong className="block text-amber-900 font-bold">Budget Travel Strategy:</strong>
-            <p className="text-gray-600">Take an overnight launch from Dhaka Sadarghat to Patuakhali or Payra port using gokawsar, then take a short local bus ride directly to Kuakata beach area.</p>
+            <p className="text-gray-600">Take an overnight launch from Dhaka Sadarghat to Patuakhali or Payra port using <span className="notranslate"> GoKawsar </span>, then take a short local bus ride directly to Kuakata beach area.</p>
           </div>
         </div>
         <p className="text-xs font-semibold text-amber-900 bg-white p-3 rounded-lg border border-amber-200">
@@ -100,7 +100,7 @@ export default function BudgetTripPlanBlog() {
 
           <div className="bg-white p-4 rounded-xl border border-emerald-100 shadow-sm space-y-2">
             <strong className="block text-emerald-900 font-bold">Budget Travel Strategy:</strong>
-            <p className="text-gray-600">Book non-AC chair coach night buses on gokawsar for around ৳600–৳700. Travel in groups to share CNG or boat hire costs at Jaflong and Ratargul.</p>
+            <p className="text-gray-600">Book non-AC chair coach night buses on <span className="notranslate"> GoKawsar </span> for around ৳600–৳700. Travel in groups to share CNG or boat hire costs at Jaflong and Ratargul.</p>
           </div>
         </div>
         <p className="text-xs font-semibold text-emerald-900 bg-white p-3 rounded-lg border border-emerald-200">
@@ -124,7 +124,7 @@ export default function BudgetTripPlanBlog() {
 
           <div className="bg-white p-4 rounded-xl border border-blue-100 shadow-sm space-y-2">
             <strong className="block text-blue-900 font-bold">Budget Travel Strategy:</strong>
-            <p className="text-gray-600">Reserve early-bird highway express tickets on gokawsar. Use local city buses or shared rides inside Chittagong city to avoid high taxi fares.</p>
+            <p className="text-gray-600">Reserve early-bird highway express tickets on <span className="notranslate"> GoKawsar </span>. Use local city buses or shared rides inside Chittagong city to avoid high taxi fares.</p>
           </div>
         </div>
       </section>
@@ -145,7 +145,7 @@ export default function BudgetTripPlanBlog() {
 
           <div className="bg-white p-4 rounded-xl border border-rose-100 shadow-sm space-y-2">
             <strong className="block text-rose-900 font-bold">Budget Travel Strategy:</strong>
-            <p className="text-gray-600">Travel during off-peak weekdays (Sunday to Wednesday) when hotel rates drop by 50%. Apply gokawsar promo vouchers for extra ticket savings.</p>
+            <p className="text-gray-600">Travel during off-peak weekdays (Sunday to Wednesday) when hotel rates drop by 50%. Apply <span className="notranslate"> GoKawsar </span> promo vouchers for extra ticket savings.</p>
           </div>
         </div>
       </section>
@@ -200,7 +200,7 @@ export default function BudgetTripPlanBlog() {
           Golden Rules for Budget Travel in Bangladesh
         </h2>
         <ul className="list-disc pl-5 space-y-2 text-xs md:text-sm text-gray-700 leading-relaxed">
-          <li><strong>Book Tickets Early on gokawsar:</strong> Early bookings give you access to lower fare brackets and promo voucher discounts before peak demand sets in.</li>
+          <li><strong>Book Tickets Early on <span className="notranslate"> GoKawsar </span>:</strong> Early bookings give you access to lower fare brackets and promo voucher discounts before peak demand sets in.</li>
           <li><strong>Travel in Groups:</strong> Sharing accommodation, boat rentals in Sylhet, and auto-rickshaw fares in Coxs Bazar reduces individual expenses significantly.</li>
           <li><strong>Eat at Local Food Hubs:</strong> Enjoy authentic rice, fresh fish, bhorta, and lentils at clean local eateries instead of expensive tourist restaurants.</li>
           <li><strong>Travel Overnight:</strong> Taking night buses or launches saves the cost of paying for hotel rooms on travel days.</li>
@@ -212,7 +212,7 @@ export default function BudgetTripPlanBlog() {
           Start Planning Your Affordable Journey Today!
         </h2>
         <p className="text-xs md:text-sm text-amber-100 leading-relaxed">
-          Dont let budget limits hold back your wanderlust. Head to gokawsar, choose your next dream destination, grab your seat, and explore Bangladesh with guaranteed low fares!
+          Dont let budget limits hold back your wanderlust. Head to <span className="notranslate"> GoKawsar </span>, choose your next dream destination, grab your seat, and explore Bangladesh with guaranteed low fares!
         </p>
       </section>
 

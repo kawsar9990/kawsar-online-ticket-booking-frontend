@@ -58,7 +58,7 @@ export default function AvoidRamadanRushBlog() {
           Ramadan in Bangladesh brings a unique spiritual atmosphere into our daily lives. However, it also introduces significant travel challenges across major highways, terminals, and city exit points. Millions of people travel across districts during this month for business, family reunions, and upcoming Eid festivities.
         </p>
         <p>
-          Imagine standing in a congested bus terminal under hot summer temperatures while fasting, dealing with long counter queues, uncertain seat availability, and inflated black-market ticket prices. Traveling during Ramadan should not be an exhausting ordeal. By leveraging online booking on **gokawsar**, you can secure your seats peacefully from the comfort of your home.
+          Imagine standing in a congested bus terminal under hot summer temperatures while fasting, dealing with long counter queues, uncertain seat availability, and inflated black-market ticket prices. Traveling during Ramadan should not be an exhausting ordeal. By leveraging online booking on **<span className="notranslate"> GoKawsar </span>**, you can secure your seats peacefully from the comfort of your home.
         </p>
       </section>
 
@@ -104,7 +104,7 @@ export default function AvoidRamadanRushBlog() {
 
       <section className="space-y-6 mb-12">
         <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 border-b border-gray-200 pb-3">
-          Major Advantages of Booking Online on gokawsar While Fasting
+          Major Advantages of Booking Online on <span className="notranslate"> GoKawsar </span> While Fasting
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs md:text-sm">
@@ -133,7 +133,7 @@ export default function AvoidRamadanRushBlog() {
           Step-by-Step Guide: Booking Your Bus Ticket Online
         </h2>
         <p className="text-xs md:text-sm text-gray-600">
-          Follow these quick steps on gokawsar to secure your trip within two minutes:
+          Follow these quick steps on <span className="notranslate"> GoKawsar </span> to secure your trip within two minutes:
         </p>
 
         <div className="space-y-4 text-xs md:text-sm text-gray-700 pt-2">
@@ -141,7 +141,7 @@ export default function AvoidRamadanRushBlog() {
             <span className="w-7 h-7 rounded-full bg-rose-700 text-white flex items-center justify-center font-bold flex-shrink-0">1</span>
             <div>
               <strong className="text-gray-900 font-bold block">Search Route & Choose Travel Date</strong>
-              <p className="text-gray-600">Select your departure city, destination, and desired travel date on the gokawsar website or mobile app.</p>
+              <p className="text-gray-600">Select your departure city, destination, and desired travel date on the <span className="notranslate"> GoKawsar </span> website or mobile app.</p>
             </div>
           </div>
 
@@ -173,7 +173,7 @@ export default function AvoidRamadanRushBlog() {
 
       <section className="bg-white p-6 md:p-8 rounded-2xl border border-gray-200 shadow-sm space-y-6 mb-12">
         <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 border-b border-gray-100 pb-3">
-          Comparison: Terminal Counter Booking vs. Online Booking on gokawsar
+          Comparison: Terminal Counter Booking vs. Online Booking on <span className="notranslate"> GoKawsar </span>
         </h2>
 
         <div className="overflow-x-auto">
@@ -182,7 +182,7 @@ export default function AvoidRamadanRushBlog() {
               <tr className="bg-rose-900 text-white border-b border-rose-950">
                 <th className="p-3 font-bold">Booking Criteria</th>
                 <th className="p-3 font-bold">Physical Counter Booking</th>
-                <th className="p-3 font-bold">gokawsar Online Booking</th>
+                <th className="p-3 font-bold"><span className="notranslate"> GoKawsar </span> Online Booking</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200 bg-white">
@@ -224,16 +224,16 @@ export default function AvoidRamadanRushBlog() {
           <li><strong>Book 3–5 Days Early:</strong> Advance bookings secure your ideal schedule and seat position before peak rush capacity is reached.</li>
           <li><strong>Travel During Cool Hours:</strong> Opt for post-Sehri early morning buses or post-Iftar night trips for maximum energy preservation.</li>
           <li><strong>Carry an Emergency Iftar Kit:</strong> Keep dates, water, and dry fruits in your hand bag in case highway traffic delays your bus near Maghrib prayer.</li>
-          <li><strong>Keep E-Tickets Ready:</strong> Save your gokawsar PDF ticket on your smartphone so you can display the QR code at boarding points without internet dependency.</li>
+          <li><strong>Keep E-Tickets Ready:</strong> Save your <span className="notranslate"> GoKawsar </span> PDF ticket on your smartphone so you can display the QR code at boarding points without internet dependency.</li>
         </ul>
       </section>
 
       <section className="bg-rose-950 text-white p-6 md:p-8 rounded-2xl mb-12 space-y-4">
         <h2 className="text-xl md:text-2xl font-bold text-white">
-          Secure Your Ramadan Bus Tickets Online on gokawsar Now!
+          Secure Your Ramadan Bus Tickets Online on <span className="notranslate"> GoKawsar </span> Now!
         </h2>
         <p className="text-xs md:text-sm text-rose-100 leading-relaxed">
-          Skip the counter queues, protect your health while fasting, and enjoy guaranteed seats with exclusive discounts. Book your tickets on gokawsar today and travel with total peace of mind!
+          Skip the counter queues, protect your health while fasting, and enjoy guaranteed seats with exclusive discounts. Book your tickets on <span className="notranslate"> GoKawsar </span> today and travel with total peace of mind!
         </p>
       </section>
 

@@ -233,7 +233,7 @@ export default function FirstTimeBusTravelerGuide() {
             <div className="space-y-1">
               <h3 className="text-lg font-bold text-gray-900">Step 1: Log in to Your gokawsar Account</h3>
               <p className="text-gray-600 leading-relaxed">
-                Open the <strong>gokawsar</strong> website or mobile web portal. Log in using the registered mobile number or email address that was used when purchasing your bus ticket.
+                Open the <strong className="notranslate"> GoKawsar </strong> website or mobile web portal. Log in using the registered mobile number or email address that was used when purchasing your bus ticket.
               </p>
             </div>
           </div>

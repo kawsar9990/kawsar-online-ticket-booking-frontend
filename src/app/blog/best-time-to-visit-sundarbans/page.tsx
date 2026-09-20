@@ -226,7 +226,7 @@ export default function BestTimeToVisitSundarbansPage() {
           While summer and monsoon reveal different sides of the forest, from solitude to lush greenery, they also bring challenges like heat, humidity, and unpredictable storms. With careful planning, guided tours, and respect for nature, every journey into the Sundarbans can be unforgettable.
         </p>
         <p className="font-semibold text-gray-900 pt-2">
-          Plan your Sundarbans adventure today with <span className="text-red-600">gokawsar</span>, where the forest whispers, the rivers flow, and every sunrise unveils a new story of the wild.
+          Plan your Sundarbans adventure today with <span className="text-red-600 notranslate">gokawsar</span>, where the forest whispers, the rivers flow, and every sunrise unveils a new story of the wild.
         </p>
       </section>
 

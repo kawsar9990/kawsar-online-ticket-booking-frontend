@@ -57,10 +57,10 @@ export default function BusTicketRefundsBlog() {
 
       <section className="space-y-4 text-base md:text-lg text-gray-700 mb-12">
         <p>
-          Plans change, journeys get delayed, and emergencies happen. At **gokawsar**, we understand that flexibility is key to a smooth travel experience. Whether you need to cancel a bus ticket due to a schedule shift or understand how refund processing works across different bus operators, this guide details everything you need to know.
+          Plans change, journeys get delayed, and emergencies happen. At **<span className="notranslate"> GoKawsar </span>**, we understand that flexibility is key to a smooth travel experience. Whether you need to cancel a bus ticket due to a schedule shift or understand how refund processing works across different bus operators, this guide details everything you need to know.
         </p>
         <p>
-          While **gokawsar** provides a unified platform for instant digital ticketing and automated cancellation requests, specific refund eligibility, cut-off timings, and service charges depend on individual bus operator policies.
+          While **<span className="notranslate"> GoKawsar </span>** provides a unified platform for instant digital ticketing and automated cancellation requests, specific refund eligibility, cut-off timings, and service charges depend on individual bus operator policies.
         </p>
       </section>
 
@@ -74,14 +74,14 @@ export default function BusTicketRefundsBlog() {
           <div className="bg-white p-5 rounded-xl border border-rose-100 shadow-sm space-y-2">
             <strong className="text-rose-950 font-bold text-base block">1. Operator-Dependent Rules</strong>
             <p className="text-gray-600">
-              Cancellation cut-off times and deduction percentages vary per operator. Always check operator rules shown during checkout on gokawsar.
+              Cancellation cut-off times and deduction percentages vary per operator. Always check operator rules shown during checkout on <span className="notranslate"> GoKawsar </span>.
             </p>
           </div>
 
           <div className="bg-white p-5 rounded-xl border border-rose-100 shadow-sm space-y-2">
             <strong className="text-rose-950 font-bold text-base block">2. Self-Service Cancellation</strong>
             <p className="text-gray-600">
-              Initiate cancellations quickly under <strong>My Bookings</strong> on the gokawsar portal or contact customer support for fast manual assistance.
+              Initiate cancellations quickly under <strong>My Bookings</strong> on the <span className="notranslate"> GoKawsar </span> portal or contact customer support for fast manual assistance.
             </p>
           </div>
 
@@ -145,14 +145,14 @@ export default function BusTicketRefundsBlog() {
    
       <section className="space-y-6 mb-12">
         <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 border-b border-gray-200 pb-3">
-          How to Request a Refund on gokawsar
+          How to Request a Refund on <span className="notranslate"> GoKawsar </span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-xs md:text-sm">
           <div className="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-2">
             <span className="w-7 h-7 flex items-center justify-center rounded-full bg-rose-600 text-white font-bold text-xs">1</span>
             <h3 className="font-bold text-gray-900">Go to My Bookings</h3>
-            <p className="text-gray-600">Log in to your gokawsar account and open your active ticket trip under dashboard history.</p>
+            <p className="text-gray-600">Log in to your <span className="notranslate"> GoKawsar </span> account and open your active ticket trip under dashboard history.</p>
           </div>
 
           <div className="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-2">
@@ -181,7 +181,7 @@ export default function BusTicketRefundsBlog() {
           Need Help With Your Existing Booking?
         </h2>
         <p className="text-xs md:text-sm text-rose-100 leading-relaxed">
-          If you face any issues cancelling your ticket online or have queries about an ongoing refund request, contact our 24/7 gokawsar support helpline or manage your tickets directly in your user portal.
+          If you face any issues cancelling your ticket online or have queries about an ongoing refund request, contact our 24/7 <span className="notranslate"> GoKawsar </span> support helpline or manage your tickets directly in your user portal.
         </p>
       </section>
 

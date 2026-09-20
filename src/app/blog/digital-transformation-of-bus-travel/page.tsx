@@ -56,7 +56,7 @@ export default function DigitalBusTravelBlog() {
           Bus travel in Bangladesh has undergone a remarkable shift in recent years. What was once a domain dominated by physical ticket queues, paper registers, and manual phone reservations has quickly evolved into a fully digital ecosystem.
         </p>
         <p>
-          Platforms like gokawsar are leading this shift by integrating e-ticketing platforms, real-time GPS fleet tracking, instant SMS confirmations, and smart digital payment gateways to redefine the entire travel experience.
+          Platforms like <span className="notranslate"> GoKawsar </span> are leading this shift by integrating e-ticketing platforms, real-time GPS fleet tracking, instant SMS confirmations, and smart digital payment gateways to redefine the entire travel experience.
         </p>
       </section>
 

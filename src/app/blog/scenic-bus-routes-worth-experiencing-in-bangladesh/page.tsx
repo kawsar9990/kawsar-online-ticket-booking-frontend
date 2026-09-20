@@ -230,7 +230,7 @@ export default function ScenicBusRoutesBlog() {
           Tips for Enjoying Scenic Bus Trips
         </h2>
         <ul className="list-disc pl-5 space-y-2 text-xs md:text-sm text-teal-100 leading-relaxed">
-          <li><strong>Select Window Seats:</strong> Book your tickets in advance on gokawsar to secure window seats on the scenic side of the bus.</li>
+          <li><strong>Select Window Seats:</strong> Book your tickets in advance on <span className="notranslate"> GoKawsar </span> to secure window seats on the scenic side of the bus.</li>
           <li><strong>Travel in Daytime:</strong> While overnight buses save time, taking an early morning bus allows you to enjoy every mile of green landscapes and river views.</li>
           <li><strong>Keep Camera Ready:</strong> High-speed expressways offer quick photo opportunities, so keep your smartphone or camera charged and accessible.</li>
         </ul>

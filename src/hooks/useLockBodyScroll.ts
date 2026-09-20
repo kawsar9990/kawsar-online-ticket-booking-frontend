@@ -7,20 +7,28 @@ export function useLockBodyScroll(isLocked: boolean){
 useEffect(()=> {
 if(!isLocked) return;
 
-const originalStyle = window.getComputedStyle(document.body).overflow;
+const body = document.body;
+const html = document.documentElement;
+
+const originalBodyOverflow = body.style.overflow;
+const originalHtmlOverflow = html.style.overflow;
+
 const lenis = (window as any).lenis;
 
 if (lenis && typeof lenis.stop === "function") {
     lenis.stop();
 }
-document.body.style.overflow = "hidden";
+
+body.style.overflow = 'hidden';
+html.style.overflow = 'hidden';
 
 return ()=> {
-    const lenis = (window as any).lenis;
     if (lenis && typeof lenis.start === "function") {
       lenis.start();
     }
-    document.body.style.overflow = originalStyle
+    
+      body.style.overflow = originalBodyOverflow;
+      html.style.overflow = originalHtmlOverflow;
 }
 },[isLocked])
 }

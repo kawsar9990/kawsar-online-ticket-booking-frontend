@@ -53,13 +53,13 @@ return (
 
 <div className="absolute inset-0 flex flex-col justify-center items-center pointer-events-none select-none overflow-hidden space-y-1">
   <span className="text-3xl sm:text-4xl font-black uppercase text-white/30 whitespace-nowrap tracking-wider">
-    WHY GoKawsar
+    WHY <span className="notranslate"> GoKawsar </span>
   </span>
   <span className="text-3xl sm:text-4xl font-black uppercase text-white/30 whitespace-nowrap tracking-wider">
-    WHY GoKawsar
+    WHY <span className="notranslate"> GoKawsar </span>
   </span>
   <span className="text-3xl sm:text-4xl font-black uppercase text-white/30 whitespace-nowrap tracking-wider">
-    WHY GoKawsar
+    WHY <span className="notranslate"> GoKawsar </span>
   </span>
 </div>
 

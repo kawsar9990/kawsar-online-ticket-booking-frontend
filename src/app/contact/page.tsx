@@ -40,7 +40,7 @@ return(
     <span className="inline-block px-2 py-0.5 bg-blue-600/80 backdrop-blur-md rounded text-[10px] font-medium mb-1">
       Verified Support
     </span>
-    <p className="text-sm font-semibold tracking-wide">GoKawsar Contact</p>
+    <p className="text-sm font-semibold tracking-wide notranslate">GoKawsar Contact</p>
     <p className="text-[11px] text-slate-300">Tangail, Dhaka, Bangladesh</p>
   </div>
 </div>

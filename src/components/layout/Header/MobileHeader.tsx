@@ -14,7 +14,7 @@ import {
   FaPlane, 
   FaTrain, 
   FaShip, 
-  FaCalendarDays, 
+  FaHotel , 
   FaFortAwesome, 
   FaHeadset, 
   FaPhone, 
@@ -46,14 +46,14 @@ const menuItems: IMenuItem[] = [
     { label: 'nav.air', icon: FaPlane, href: '/air' },
     { label: 'nav.train', icon: FaTrain, href: '/train' },
     { label: 'nav.launch', icon: FaShip, href: '/launch' },
-    { label: 'nav.event', icon: FaCalendarDays, href: '/events' },
+    { label: 'nav.hotel', icon: FaHotel, href: '/hotel' },
     { label: 'nav.park', icon: FaFortAwesome, href: '/park', badge: 'Beta' },
   ];
 
 
 return(
-<div>
-<header className="fixed top-0 left-0 w-full bg-white border-b border-gray-200 z-50 shadow-sm">
+<div className=''>
+<header className="fixed top-0 z-[1999999] left-0 w-full bg-white border-b border-gray-200 shadow-sm">
 <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           
 

@@ -56,7 +56,7 @@ export default function EidTravelGuideBlog() {
           Eid is one of the most celebrated and joyful festivals in Bangladesh. Millions of people travel from major industrial hubs like Dhaka, Gazipur, and Narayanganj back to their home districts to reunite with family and loved ones. However, this massive migration creates an intense demand for tickets, leading to rapid sell-outs within minutes.
         </p>
         <p>
-          If you missed the initial advance ticket booking window, dont panic! Even at the last minute, strategic timing, flexibility with boarding terminals, and real-time seat tracking on **gokawsar** can secure you a confirmed seat. Here is your ultimate survival guide for last-minute Eid homecomings.
+          If you missed the initial advance ticket booking window, dont panic! Even at the last minute, strategic timing, flexibility with boarding terminals, and real-time seat tracking on **<span className="notranslate"> GoKawsar </span>** can secure you a confirmed seat. Here is your ultimate survival guide for last-minute Eid homecomings.
         </p>
       </section>
 
@@ -85,7 +85,7 @@ export default function EidTravelGuideBlog() {
           </div>
         </div>
         <p className="text-xs font-semibold text-rose-900 bg-white p-3 rounded-lg border border-rose-200">
-          Pro Tip: Turn on gokawsar instant push notifications to get alerted immediately when operators add extra emergency Eid trips!
+          Pro Tip: Turn on <span className="notranslate"> GoKawsar </span> instant push notifications to get alerted immediately when operators add extra emergency Eid trips!
         </p>
       </section>
 
@@ -94,7 +94,7 @@ export default function EidTravelGuideBlog() {
           2. Check Multiple Bus Operators & Combined Routes
         </h2>
         <p className="text-xs md:text-sm text-gray-600">
-          Rather than relying solely on premier luxury operators, expand your search scope across multiple transport providers integrated into gokawsar:
+          Rather than relying solely on premier luxury operators, expand your search scope across multiple transport providers integrated into <span className="notranslate"> GoKawsar </span>:
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm text-gray-700 pt-2">
@@ -131,7 +131,7 @@ export default function EidTravelGuideBlog() {
 
           <div className="bg-white p-4 rounded-xl border border-amber-100 shadow-sm space-y-2">
             <strong className="block text-amber-900 font-bold">Gazipur & Chandra Outlets:</strong>
-            <p className="text-gray-600">Industrial workers can reserve seats originating from Gazipur bypass terminals on gokawsar.</p>
+            <p className="text-gray-600">Industrial workers can reserve seats originating from Gazipur bypass terminals on <span className="notranslate"> GoKawsar </span>.</p>
           </div>
         </div>
       </section>
@@ -149,7 +149,7 @@ export default function EidTravelGuideBlog() {
             When passengers select seats online without completing immediate bKash or Nagad payments within the allotted 10-to-15-minute timer, those seats are automatically released back into system availability.
           </p>
           <p className="font-bold text-emerald-900">
-            Strategy: Keep refreshing your route page on gokawsar every 15 to 30 minutes, especially during late hours. You will frequently catch freshly released seats!
+            Strategy: Keep refreshing your route page on <span className="notranslate"> GoKawsar </span> every 15 to 30 minutes, especially during late hours. You will frequently catch freshly released seats!
           </p>
         </div>
       </section>
@@ -174,7 +174,7 @@ export default function EidTravelGuideBlog() {
                 <td className="p-3 font-medium text-rose-900">7 Days Before Eid</td>
                 <td className="p-3">High</td>
                 <td className="p-3 text-emerald-600 font-bold">60% - 80%</td>
-                <td className="p-3">Book advance tickets via gokawsar app</td>
+                <td className="p-3">Book advance tickets via <span className="notranslate"> GoKawsar </span> app</td>
               </tr>
               <tr>
                 <td className="p-3 font-medium text-rose-900">3 Days Before Eid</td>
@@ -204,7 +204,7 @@ export default function EidTravelGuideBlog() {
           Essential Safety & Travel Preparation Checklist
         </h2>
         <ul className="list-disc pl-5 space-y-2 text-xs md:text-sm text-gray-700 leading-relaxed">
-          <li><strong>Keep E-Tickets Saved Offline:</strong> Download your gokawsar digital SMS and PDF ticket to your smartphone gallery in case mobile network coverage drops near highway toll plazas.</li>
+          <li><strong>Keep E-Tickets Saved Offline:</strong> Download your <span className="notranslate"> GoKawsar </span> digital SMS and PDF ticket to your smartphone gallery in case mobile network coverage drops near highway toll plazas.</li>
           <li><strong>Arrive 45 Minutes Early:</strong> Festive traffic bottlenecks near terminals can cause you to miss your bus. Allow ample buffer time.</li>
           <li><strong>Pack Light & Secure Belongings:</strong> Keep cash, mobile phones, and identification in a compact front body bag during busy terminal boarding.</li>
           <li><strong>Carry Power Banks & Water:</strong> Long traffic queues near highway bridges can extend travel times; stay hydrated and keep devices charged.</li>
@@ -213,10 +213,10 @@ export default function EidTravelGuideBlog() {
 
       <section className="bg-rose-950 text-white p-6 md:p-8 rounded-2xl mb-12 space-y-4">
         <h2 className="text-xl md:text-2xl font-bold text-white">
-          Secure Your Last-Minute Eid Ticket on gokawsar Now!
+          Secure Your Last-Minute Eid Ticket on <span className="notranslate"> GoKawsar </span> Now!
         </h2>
         <p className="text-xs md:text-sm text-rose-100 leading-relaxed">
-          Dont wait until the last minute! Open gokawsar now, search your home route, apply available Eid voucher discounts, and enjoy a safe, hassle-free journey home to your loved ones!
+          Dont wait until the last minute! Open <span className="notranslate"> GoKawsar </span> now, search your home route, apply available Eid voucher discounts, and enjoy a safe, hassle-free journey home to your loved ones!
         </p>
       </section>
 

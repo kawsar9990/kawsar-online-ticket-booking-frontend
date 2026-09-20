@@ -25,7 +25,7 @@ return (
 
 <div className="space-y-6 text-slate-700 text-sm sm:text-base leading-relaxed">
 <p>
-  At <strong>GoKawsar</strong>, accessible from our platform, one of our main priorities is the privacy of our visitors and users. This Privacy Policy document contains types of information that is collected and recorded by GoKawsar and how we use it.
+  At <strong className="notranslate"> GoKawsar </strong>, accessible from our platform, one of our main priorities is the privacy of our visitors and users. This Privacy Policy document contains types of information that is collected and recorded by <span className="notranslate"> GoKawsar </span> and how we use it.
 </p>
 
 
@@ -63,7 +63,7 @@ return (
      3. Payment & Data Security
    </h2>
    <p>
-     GoKawsar prioritizes the safety of your transactions. We do not directly store your credit card or MFS (bKash/Nagad/Rocket) PIN details on our servers. All digital payments are processed through secure, SSL-encrypted payment gateways.
+     <span className="notranslate"> GoKawsar </span> prioritizes the safety of your transactions. We do not directly store your credit card or MFS (bKash/Nagad/Rocket) PIN details on our servers. All digital payments are processed through secure, SSL-encrypted payment gateways.
    </p>
  </section>
 
@@ -73,7 +73,7 @@ return (
     4. Cookies and Web Beacons
   </h2>
   <p>
-    Like any other website, GoKawsar uses cookies to store information including visitors preferences and the pages on the website that the visitor accessed. The information is used to optimize the users experience by customizing our web page content based on visitors browser type and/or other information.
+    Like any other website, <span className="notranslate"> GoKawsar </span> uses cookies to store information including visitors preferences and the pages on the website that the visitor accessed. The information is used to optimize the users experience by customizing our web page content based on visitors browser type and/or other information.
   </p>
 </section>
 
