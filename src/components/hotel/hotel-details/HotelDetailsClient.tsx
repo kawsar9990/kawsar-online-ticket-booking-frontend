@@ -22,7 +22,7 @@ interface Props {
   id: string;
 }
 
-function HotelDetailsContent({ slug, id }: Props) {
+function HotelDetailsContent({ slug }: Props) {
   const searchParams = useSearchParams();
   
   const hotelNameFromUrl = searchParams.get("name") || slug.replace(/-/g, " ");
@@ -110,6 +110,7 @@ function HotelDetailsContent({ slug, id }: Props) {
 
       <div className="sm:block hidden">
         <SearchBar 
+        city={hotelData.city}
         onSearch={({ rooms }) => {
         setGuestRooms(rooms);
         }}
@@ -119,6 +120,7 @@ function HotelDetailsContent({ slug, id }: Props) {
 
       <div className="sm:hidden block">
         <SearchBarResponsive 
+        city={hotelData.city}
         onSearch={({ rooms }) => {
         setGuestRooms(rooms);
         }}

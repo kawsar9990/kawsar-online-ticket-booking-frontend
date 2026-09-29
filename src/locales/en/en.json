@@ -1,10 +1,10 @@
 {
     "nav": {
     "bus": "Bus",
-    "air": "Air",
-    "train": "Train",
-    "launch": "Launch",
+    "visa": "Visa",
+    "holiday": "Holiday",
     "hotel": "Hotel",
+    "event": "Event",
     "park": "Park"
     },
     "footer": {

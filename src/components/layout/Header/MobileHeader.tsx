@@ -11,9 +11,9 @@ import { useGoogleTranslate } from '@/hooks/useGoogleTranslate';
 
 import { 
   FaBus, 
-  FaPlane, 
-  FaTrain, 
-  FaShip, 
+  FaTicket, 
+  FaPassport, 
+  FaUmbrellaBeach, 
   FaHotel , 
   FaFortAwesome, 
   FaHeadset, 
@@ -43,17 +43,17 @@ useLockBodyScroll(isLeftOpen || isRightOpen);
 
 const menuItems: IMenuItem[] = [
     { label: 'nav.bus', icon: FaBus, href: '/bus-tickets' },
-    { label: 'nav.air', icon: FaPlane, href: '/air' },
-    { label: 'nav.train', icon: FaTrain, href: '/train' },
-    { label: 'nav.launch', icon: FaShip, href: '/launch' },
+    { label: 'nav.event', icon: FaTicket, href: '/event-tickets' },
+    { label: 'nav.holiday', icon: FaUmbrellaBeach, href: '/holiday' },
     { label: 'nav.hotel', icon: FaHotel, href: '/hotel' },
+    { label: 'nav.visa', icon: FaPassport, href: '/visa' },
     { label: 'nav.park', icon: FaFortAwesome, href: '/park', badge: 'Beta' },
   ];
 
 
 return(
-<div className=''>
-<header className="fixed top-0 z-[1999999] left-0 w-full bg-white border-b border-gray-200 shadow-sm">
+<div>
+<header className="fixed z-[100] top-0 left-0 w-full bg-white border-b border-gray-200 shadow-sm">
 <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           
 

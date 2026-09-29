@@ -22,6 +22,7 @@ interface RoomGuest {
 }
 
 interface SearchBarProps {
+  city?: string
   hotelName?: string;
   onSearch?: (data: {
     rooms: {
@@ -33,7 +34,7 @@ interface SearchBarProps {
 
 
 
-export default function SearchBar( { hotelName, onSearch }: SearchBarProps ){
+export default function SearchBar( { hotelName, city, onSearch }: SearchBarProps ){
 
 const [openCalendar, setOpenCalendar] = useState(false);
 const [month, setMonth] = useState<Date>(() => startOfMonth(new Date()));
@@ -168,7 +169,7 @@ return(
   <MapPin className="w-5 h-5 text-slate-400 shrink-0" />
   <div className="border-l border-slate-200 pl-3 min-w-0">
     <div className="text-[13px] text-gray-500 truncate">{hotelName}</div>
-    <div className="text-[13px] text-gray-500 truncate">Bangladesh</div>
+    <div className="text-[13px] text-gray-500 truncate">{city}</div>
   </div>
 </div>
 

@@ -34,6 +34,7 @@ interface RoomGuest {
 }
 
 interface SearchBarProps {
+  city?: string,
   hotelName?: string;
   onSearch?: (data: {
     rooms: {
@@ -43,7 +44,7 @@ interface SearchBarProps {
   }) => void;
 }
 
-export default function SearchBar({ hotelName, onSearch }: SearchBarProps) {
+export default function SearchBar({ hotelName, onSearch, city }: SearchBarProps) {
   const mounted = useSyncExternalStore(
     () => () => {},
     () => true,
@@ -240,7 +241,7 @@ return (
             <p className="text-[14px] font-semibold text-gray-900 truncate">
               {hotelName || "Hotel Location"}
             </p>
-            <p className="text-[12px] text-gray-400 truncate">Bangladesh</p>
+            <p className="text-[12px] text-gray-400 truncate">{city}</p>
           </div>
         </div>
 

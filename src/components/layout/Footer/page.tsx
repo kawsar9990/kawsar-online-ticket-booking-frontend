@@ -140,9 +140,9 @@ return (
   </h3>
   <ul className="space-y-3 text-[13px] xl:text-[15px] text-gray-600 gray-400">
     <li><Link href="/bus-tickets" className="hover:text-emerald-600 hover:underline transition-colors">Bus Tickets</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Air Tickets</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Train Tickets</Link></li>
-    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Launch Tickets</Link></li>
+    <li><Link href="/event-tickets" className="hover:text-emerald-600 hover:underline transition-colors">Event Tickets</Link></li>
+    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Holiday Tickets</Link></li>
+    <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Visa Tickets</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Hotel Tickets</Link></li>
     <li><Link href="/" className="hover:text-emerald-600 hover:underline transition-colors">Park Tickets</Link></li>
   </ul>

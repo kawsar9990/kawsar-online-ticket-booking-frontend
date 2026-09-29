@@ -7,11 +7,11 @@ import { usePathname } from 'next/navigation';
 import { useGoogleTranslate } from '@/hooks/useGoogleTranslate';
 import { 
   Bus, 
-  Plane, 
-  Train, 
-  Ship, 
+  Palmtree, 
   Hotel, 
+  PartyPopper,
   Sparkles, 
+  FileText,
   LucideIcon
 } from 'lucide-react';
 
@@ -32,16 +32,16 @@ interface LogoConfig {
 const logoData: LogoConfig = {
     src: "/assets/5.png",
     alt: "kawsar logo",
-    width: 130,
-    height: 130
+    width: 50,
+    height: 50
 }
 
 const navItems : NavItem[] = [
 { name: 'nav.bus', href: '/bus-tickets', icon: Bus },
-{ name: 'nav.air', href: '/air', icon: Plane },
-{ name: 'nav.train', href: '/train', icon: Train },
-{ name: 'nav.launch', href: 'launch', icon: Ship },
+{ name: 'nav.event', href: '/event-tickets', icon: PartyPopper },
+{ name: 'nav.holiday', href: '/holiday', icon: Palmtree },
 { name: 'nav.hotel', href: '/hotel', icon: Hotel },
+{ name: 'nav.visa', href: '/visa', icon:  FileText},
 { name: 'nav.park',  href: '/park', icon: Sparkles, isBeta: true },
 ];
 
@@ -54,7 +54,7 @@ const pathname = usePathname();
 
 return(
 <div 
-className={`fixed top-0 left-0 right-0 z-[19999999] transition-all duration-300 hidden lg:block bg-white shadow-md py-4`}>
+className={`fixed top-0 left-0 right-0 z-[19999999] transition-all duration-300 hidden lg:block bg-white shadow-md px-5 py-4`}>
 <div className="max-w-7xl mx-auto px-2 lg:px-4 xl:px-8">
 <div className="flex items-center justify-between">
 
@@ -66,7 +66,7 @@ className={`fixed top-0 left-0 right-0 z-[19999999] transition-all duration-300 
       width={logoData.width}
       height={logoData.height}
       priority
-      className="h-8 lg:h-9 xl:h-10 w-auto object-contain cursor-pointer"
+      className="h-8 lg:h-5 xl:h-8 w-auto object-contain cursor-pointer"
     />
   </Link>
 </div>
@@ -87,14 +87,14 @@ return(
   }`}
 >
 <Icon 
-  className={`w-4 h-4 xl:w-5 xl:h-5 transition-colors duration-200 ${
+  className={`w-4 h-4 xl:w-4 xl:h-4 transition-colors duration-200 ${
     isActive 
       ? 'text-[#009966]' 
       : 'text-black group-hover:text-[#256652]'
   }`} 
 />
 
-<span className="text-xs xl:text-sm font-semibold">
+<span className="text-xs xl:text-[13px] font-semibold">
   {t(item.name)}
 </span>
 {item.isBeta && (

@@ -57,7 +57,7 @@ return (
     <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 tracking-tight">
       Who we are?
     </h2>
-<p className="text-left text-gray-600 text-base sm:text-lg leading-relaxed font-normal max-w-4xl mx-auto">
+<p className="text-center text-gray-600 text-base sm:text-lg leading-relaxed font-normal max-w-4xl mx-auto">
   We started with one simple goal— to make booking effortless! As a tech-driven platform, <strong className="text-gray-900 font-semibold notranslate">gokawsar</strong> empowers users to choose, compare, and secure bookings in just a few taps. More than just a booking service, <strong className="text-gray-900 notranslate font-semibold"> gokawsar </strong> is built to simplify your everyday travel and booking needs!
 </p>
   </div>
