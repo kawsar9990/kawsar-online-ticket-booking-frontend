@@ -1,3 +1,5 @@
+'use client'
+
 import { Search, MousePointerClick, Smartphone } from 'lucide-react';
 
 interface StepItem {
